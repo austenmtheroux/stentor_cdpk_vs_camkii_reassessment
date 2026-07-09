@@ -1,0 +1,25 @@
+Accession	Name	Short Name	Source Database	Type	Integrated Into	Integrated Signatures	GO Terms	Protein Accession	Protein Length	Matches
+cd00051	EFh	EFh	cdd	domain	IPR002048			a0a1r2b3c2	484	416..475
+cd05117	The catalytic domain of CAMK family Serine/Threonine Kinases	STKc_CAMK	cdd	domain				a0a1r2b3c2	484	38..294
+G3DSA:1.10.238.10	EF-hand		cathgene3d	homologous_superfamily				a0a1r2b3c2	484	313..322,339..406,323..337,407..475
+G3DSA:1.10.510.10	Transferase(Phosphotransferase) domain 1		cathgene3d	homologous_superfamily				a0a1r2b3c2	484	120..306
+G3DSA:3.30.200.20	Phosphorylase Kinase; domain 1		cathgene3d	homologous_superfamily				a0a1r2b3c2	484	25..119
+IPR000719	Protein kinase domain	Prot_kinase_dom	interpro	domain		PS50011,PF00069,SM00220	GO:0005524,GO:0006468	a0a1r2b3c2	484	39..295
+IPR002048	EF-hand domain	EF_hand_dom	interpro	domain		PS50222,cd00051,PF13202,PF13499,PF13833,PF13405,PF00036,SM00054	GO:0005509	a0a1r2b3c2	484	341..408,412..481
+IPR008266	Tyrosine-protein kinase, active site	Tyr_kinase_AS	interpro	active_site		PS00109	GO:0004672,GO:0006468	a0a1r2b3c2	484	157..169
+IPR011009	Protein kinase-like domain superfamily	Kinase-like_dom_sf	interpro	homologous_superfamily		SSF56112		a0a1r2b3c2	484	33..309
+IPR011992	EF-hand domain pair	EF-hand-dom_pair	interpro	homologous_superfamily		SSF47473		a0a1r2b3c2	484	340..475
+IPR018247	EF-Hand 1, calcium-binding site	EF_Hand_1_Ca_BS	interpro	binding_site		PS00018		a0a1r2b3c2	484	354..366,389..401,459..471
+IPR020635	Tyrosine-protein kinase, catalytic domain	Tyr_kinase_cat_dom	interpro	domain		SM00219	GO:0004713,GO:0006468	a0a1r2b3c2	484	39..293
+IPR050205	Calcium-dependent Serine/Threonine Protein Kinases	CDPK_Ser/Thr_kinases	interpro	family		PTHR24349		a0a1r2b3c2	484	30..459
+PF00069	Protein kinase domain	Pkinase	pfam	domain	IPR000719			a0a1r2b3c2	484	39..295
+PF13499	EF-hand domain pair	EF-hand_7	pfam	domain	IPR002048			a0a1r2b3c2	484	346..404,415..475
+PS00018	EF-hand calcium-binding domain	EF_HAND_1	prosite	conserved_site	IPR018247			a0a1r2b3c2	484	354..366,389..401,459..471
+PS00109	Tyrosine protein kinases specific active-site signature	PROTEIN_KINASE_TYR	prosite	conserved_site	IPR008266			a0a1r2b3c2	484	157..169
+PS50011	Protein kinase domain profile	PROTEIN_KINASE_DOM	profile	domain	IPR000719			a0a1r2b3c2	484	39..295
+PS50222	EF-hand calcium-binding domain profile	EF_HAND_2	profile	domain	IPR002048			a0a1r2b3c2	484	341..376,412..445,446..481
+PTHR24349	Calcium-dependent Serine/Threonine Protein Kinases	CDPK_Ser/Thr_kinases	panther	family	IPR050205			a0a1r2b3c2	484	30..459
+SM00054	EF-hand, calcium binding motif	EFh	smart	domain	IPR002048			a0a1r2b3c2	484	345..373,380..408,416..444,450..478
+SM00219	Tyrosine kinase, catalytic domain	TyrKc	smart	domain	IPR020635			a0a1r2b3c2	484	39..293
+SSF47473	EF-hand		ssf	homologous_superfamily	IPR011992			a0a1r2b3c2	484	340..475
+SSF56112	Protein kinase-like (PK-like)		ssf	homologous_superfamily	IPR011009			a0a1r2b3c2	484	33..309

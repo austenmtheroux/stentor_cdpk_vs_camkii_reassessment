@@ -1,0 +1,18 @@
+# Python 3.12 (developed on 3.12.3)
+
+# Analysis 1: Domain-architecture reassessment
+
+pandas==3.0.2
+matplotlib==3.10.8
+
+# Analyses 2 and 3: CaMKII association-domain search and Kinase-domain HMM score comparison
+
+HMMER:
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+
+MAFFT:
+MAFFT v7.526 (2024/Apr/26)
+https://mafft.cbrc.jp/alignment/software/
+MBE 30:772-780 (2013), NAR 30:3059-3066 (2002)

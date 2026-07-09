@@ -1,0 +1,1630 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  data/PF00069.hmm
+# target sequence database:        generated/all_full_length_proteins.fasta
+# per-dom hits tabular output:     results/PF00069_vs_all_full_length.domtblout
+# model-specific thresholding:     GA cutoffs
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Pkinase  [M=262]
+Accession:   PF00069.32
+Description: Protein kinase domain
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                  Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                  -----------
+    5.8e-87  283.3   2.8    6.3e-87  283.2   0.4    2.1  1  tr|A0BUS3|A0BUS3_PARTE     Calcium-dependent protein kinase 1
+    3.9e-86  280.6   0.0    4.9e-86  280.3   0.0    1.1  1  sp|Q8IU85|KCC1D_HUMAN      Calcium/calmodulin-dependent prote
+    4.7e-86  280.3   0.0    8.7e-86  279.4   0.0    1.5  1  sp|Q38997|KIN10_ARATH      SNF1-related protein kinase cataly
+    3.2e-85  277.6   0.1    3.2e-85  277.6   0.1    1.9  1  tr|A0E864|A0E864_PARTE     Calcium-dependent protein kinase 1
+    1.9e-84  275.0   0.1    3.2e-84  274.3   0.0    1.4  1  sp|P92958|KIN11_ARATH      SNF1-related protein kinase cataly
+    2.2e-84  274.9   0.0    3.1e-84  274.4   0.0    1.2  1  sp|Q16566|KCC4_HUMAN       Calcium/calmodulin-dependent prote
+    8.5e-84  272.9   1.4    8.5e-84  272.9   1.4    1.8  1  sp|A0A5K1K8H0|CDPK5_PLAF7  Calcium-dependent protein kinase 5
+    1.1e-83  272.5   0.3    1.5e-83  272.1   0.3    1.2  1  tr|Q9BJF5|Q9BJF5_TOXGO     non-specific serine/threonine prot
+    1.6e-83  272.0   0.0      2e-83  271.7   0.0    1.1  1  sp|Q14012|KCC1A_HUMAN      Calcium/calmodulin-dependent prote
+    4.1e-83  270.7   3.1    7.3e-83  269.8   3.1    1.4  1  sp|P62344|CDPK1_PLAF7      Calcium-dependent protein kinase 1
+    6.6e-83  270.0   0.0    1.2e-82  269.1   0.0    1.5  1  sp|Q15746|MYLK_HUMAN       Myosin light chain kinase, smooth 
+    8.9e-83  269.6   0.0    1.6e-82  268.7   0.0    1.4  1  sp|Q8RWL2|CDPKT_ARATH      Calcium-dependent protein kinase 2
+    1.6e-82  268.7   0.0    2.5e-82  268.1   0.0    1.2  1  tr|S8F5F3|S8F5F3_TOXGM     Calcium-dependent protein kinase 1
+    1.7e-82  268.7   0.9      2e-82  268.4   0.2    1.5  1  SteCoe_26883               CDPK family kinase
+    1.1e-81  265.9   0.0    1.8e-81  265.3   0.0    1.3  1  sp|O62305|KCC2D_CAEEL      Calcium/calmodulin-dependent prote
+    1.7e-81  265.4   0.0    2.6e-81  264.8   0.0    1.3  1  sp|Q38868|CDPK9_ARATH      Calcium-dependent protein kinase 9
+      2e-81  265.1   0.1      9e-81  263.0   0.0    1.8  1  sp|O43293|DAPK3_HUMAN      Death-associated protein kinase 3 
+    3.8e-81  264.2   1.2    6.2e-81  263.5   1.2    1.3  1  tr|Q229U9|Q229U9_TETTS     Calcium-dependent protein kinase 1
+    3.9e-81  264.2   0.0    5.7e-81  263.7   0.0    1.3  1  sp|Q38869|CDPK4_ARATH      Calcium-dependent protein kinase 4
+    6.4e-81  263.5   0.0    9.5e-81  262.9   0.0    1.3  1  SteCoe_19366               CDPK family kinase
+    6.4e-81  263.5   0.0    9.6e-81  262.9   0.0    1.3  1  sp|Q06850|CDPK1_ARATH      Calcium-dependent protein kinase 1
+    8.4e-81  263.1   0.0    6.6e-80  260.2   0.0    2.2  1  sp|Q42479|CDPK3_ARATH      Calcium-dependent protein kinase 3
+    1.1e-80  262.7   0.0    2.3e-80  261.7   0.0    1.5  1  tr|I7M2A9|I7M2A9_TETTS     Calcium-dependent protein kinase 1
+    1.2e-80  262.6   0.5    2.2e-80  261.8   0.0    1.7  1  sp|P06782|SNF1_YEAST       Carbon catabolite-derepressing pro
+    3.6e-80  261.0   0.0    5.7e-80  260.4   0.0    1.3  1  sp|Q38870|CDPK2_ARATH      Calcium-dependent protein kinase 2
+    4.3e-80  260.8   0.0    7.3e-80  260.0   0.0    1.4  1  sp|Q13557|KCC2D_HUMAN      Calcium/calmodulin-dependent prote
+    4.3e-80  260.8   0.0    7.3e-80  260.0   0.0    1.4  1  sp|Q6PHZ2|KCC2D_MOUSE      Calcium/calmodulin-dependent prote
+    7.2e-80  260.0   0.0    1.8e-79  258.7   0.0    1.6  1  sp|P11798|KCC2A_MOUSE      Calcium/calmodulin-dependent prote
+      8e-80  259.9   0.0    1.8e-79  258.7   0.0    1.5  1  sp|Q9UQM7|KCC2A_HUMAN      Calcium/calmodulin-dependent prote
+    1.3e-79  259.2   0.0    1.8e-79  258.7   0.0    1.2  1  sp|Q13131|AAPK1_HUMAN      5'-AMP-activated protein kinase ca
+    1.5e-79  259.0   2.9    2.2e-79  258.5   2.9    1.3  1  sp|Q8IBS5|CDPK4_PLAF7      Calcium-dependent protein kinase 4
+    2.3e-79  258.4   0.0    3.7e-79  257.7   0.0    1.4  1  sp|Q923T9|KCC2G_MOUSE      Calcium/calmodulin-dependent prote
+    2.4e-79  258.3   0.0    1.5e-78  255.8   0.0    2.0  1  sp|Q2QY37|CDPKQ_ORYSJ      Calcium-dependent protein kinase 2
+    2.8e-79  258.1   0.0    4.2e-79  257.5   0.0    1.3  1  sp|Q13555|KCC2G_HUMAN      Calcium/calmodulin-dependent prote
+    3.6e-79  257.7   0.0    5.3e-79  257.2   0.0    1.3  1  sp|P53355|DAPK1_HUMAN      Death-associated protein kinase 1 
+    3.8e-79  257.7   0.0    4.8e-79  257.3   0.0    1.1  1  sp|Q9UIK4|DAPK2_HUMAN      Death-associated protein kinase 2 
+    1.2e-78  256.1   0.0    2.1e-78  255.2   0.0    1.4  1  sp|Q9M101|CDPKN_ARATH      Calcium-dependent protein kinase 2
+      2e-78  255.3   0.7      2e-78  255.3   0.7    1.7  1  SteCoe_34268               CDPK family kinase
+    2.7e-78  254.9   0.0    4.1e-78  254.3   0.0    1.3  1  sp|P28652|KCC2B_MOUSE      Calcium/calmodulin-dependent prote
+    3.9e-78  254.3   0.0    5.8e-78  253.8   0.0    1.3  1  sp|Q9FXQ3|CDPKD_ORYSJ      Calcium-dependent protein kinase 1
+    4.7e-78  254.1   0.0    6.5e-78  253.6   0.0    1.2  1  sp|Q13554|KCC2B_HUMAN      Calcium/calmodulin-dependent prote
+    5.7e-78  253.8   0.0    8.9e-78  253.2   0.0    1.3  1  sp|Q38872|CDPK6_ARATH      Calcium-dependent protein kinase 6
+    5.8e-77  250.5   0.0    8.9e-77  249.9   0.0    1.3  1  sp|P54646|AAPK2_HUMAN      5'-AMP-activated protein kinase ca
+    9.7e-77  249.8   0.2    1.9e-76  248.9   0.0    1.5  1  SteCoe_18109               CDPK family kinase
+    5.2e-76  247.4   0.1    7.2e-76  246.9   0.1    1.2  1  sp|Q32MK0|MYLK3_HUMAN      Myosin light chain kinase 3 OS=Hom
+    7.1e-76  247.0   0.0    1.2e-75  246.2   0.0    1.4  1  sp|Q38871|CDPK5_ARATH      Calcium-dependent protein kinase 5
+      1e-74  243.1   0.0    1.5e-74  242.6   0.0    1.2  1  sp|Q69IM9|CDPKM_ORYSJ      Calcium-dependent protein kinase 2
+    1.3e-74  242.8   0.0    2.2e-74  242.1   0.0    1.3  1  SteCoe_15444               CAMK related kinase
+    1.7e-74  242.4   0.0    3.3e-74  241.5   0.0    1.4  1  SteCoe_9191                CAMK related kinase
+      1e-73  239.8   0.0    1.8e-69  226.0   0.0    2.1  1  SteCoe_17222               CDPK family kinase
+    1.5e-73  239.3   0.0    2.4e-73  238.7   0.0    1.3  1  SteCoe_14067               CDPK family kinase
+    2.2e-73  238.8   0.0    2.8e-73  238.4   0.0    1.1  1  sp|Q9H1R3|MYLK2_HUMAN      Myosin light chain kinase 2, skele
+      8e-73  237.0   0.7    1.5e-72  236.1   0.1    1.7  1  sp|Q9S9V0|CDPKV_ARATH      Calcium-dependent protein kinase 3
+    1.5e-72  236.1   0.9    1.5e-72  236.1   0.9    2.0  1  SteCoe_28008               CDPK family kinase
+      1e-71  233.3   0.0    1.6e-71  232.6   0.0    1.3  1  SteCoe_10638               CDPK family kinase
+    1.3e-69  226.5   0.4      2e-69  225.8   0.4    1.3  1  SteCoe_30681               CDPK-like predicted pseudokinase
+    4.3e-68  221.4   0.0    5.6e-68  221.1   0.0    1.1  1  SteCoe_12063               CAMK related kinase
+    9.7e-68  220.3   0.0    4.2e-67  218.2   0.0    1.8  1  sp|Q96RR4|KKCC2_HUMAN      Calcium/calmodulin-dependent prote
+    6.7e-65  211.0   0.0    3.3e-64  208.7   0.0    1.8  1  sp|Q8N5S9|KKCC1_HUMAN      Calcium/calmodulin-dependent prote
+    2.8e-63  205.7   2.3    3.9e-63  205.2   2.3    1.2  1  SteCoe_33794               CDPK-like predicted pseudokinase
+    4.7e-60  195.1   4.3    8.6e-60  194.2   4.3    1.4  1  SteCoe_36256               CDPK-like predicted pseudokinase
+
+
+Domain annotation for each sequence (and alignments):
+>> tr|A0BUS3|A0BUS3_PARTE  Calcium-dependent protein kinase 1 OS=Paramecium tetraurelia OX=5888 GN=GSPATT00005536001 PE=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  283.2   0.4   6.3e-87   6.3e-87       1     262 []     209     464 ..     209     464 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 283.2 bits;  conditional E-value: 6.3e-87
+                 Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfd 87 
+                             y++++ lG+G+fgkV k+++k+tg i A+K+ikk++  k++e+k+++E++ilk+l+hp+iv+l++ +++++++y+++Ey++ggelf+
+  tr|A0BUS3|A0BUS3_PARTE 209 YTIGQVLGQGAFGKVCKVTHKTTGLIRAMKQIKKSELIKEDEQKLFQEMNILKNLDHPHIVKLYELYQDQTNYYMITEYLSGGELFE 295
+                             78899********************************************************************************** PP
+
+                 Pkinase  88 llsrkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLid..e.kgelKitDFGlakelessskltsfvgtseYmAPEvlks 171
+                             ++++ ++++e++a+++++qil +++y+H++++vHrDlKpeNiL++  e +++lKi+DFG ++++++s+ +t+++gt++Y+APEvl +
+  tr|A0BUS3|A0BUS3_PARTE 296 RIKKMQVFTEKRASELVHQILLAINYCHEQKIVHRDLKPENILFSgpEpEQNLKIIDFGCSRKFNTSK-MTKRMGTPYYIAPEVL-G 380
+                             *********************************************6422445**************98.****************.8 PP
+
+                 Pkinase 172 kkygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellq 258
+                             ++y++k+D+Ws+G+ily ll+g ppf +++e+e++ek  +         l++  +e++ is+eak+l++k++++d + R+ta+++l+
+  tr|A0BUS3|A0BUS3_PARTE 381 QNYTEKCDIWSCGIILYILLCGYPPFTGKTEQEIFEKVKSG-------RLRFPNEEWDLISKEAKQLISKMIQVDVNLRYTASQALS 460
+                             99*************************99999988877777.......678999********************************* PP
+
+                 Pkinase 259 hpwf 262
+                             +pwf
+  tr|A0BUS3|A0BUS3_PARTE 461 DPWF 464
+                             ***8 PP
+
+>> sp|Q8IU85|KCC1D_HUMAN  Calcium/calmodulin-dependent protein kinase type 1D OS=Homo sapiens OX=9606 GN=CAMK1D PE=1 SV=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  280.3   0.0   4.9e-86   4.9e-86       1     262 []      23     279 ..      23     279 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 280.3 bits;  conditional E-value: 4.9e-86
+                Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdl 88 
+                            +e +e+lG+G+f++V++a ek+tgk++A+K+i k+  k k+ +++ +Ei +l+k+kh+niv l d++e++++lylv+ +v+ggelfd+
+  sp|Q8IU85|KCC1D_HUMAN  23 FEFKETLGTGAFSEVVLAEEKATGKLFAVKCIPKKALKGKE-SSIENEIAVLRKIKHENIVALEDIYESPNHLYLVMQLVSGGELFDR 109
+                            67899******************************988877.69******************************************** PP
+
+                Pkinase  89 lsrkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekge...lKitDFGlakelessskltsfvgtseYmAPEvlkskk 173
+                            + +kg+++e++a+++++q+l+++ ylH++g+vHrDlKpeN+L+ +++e   + i+DFGl+k   ++  +++ +gt+ Y+APEvl +k+
+  sp|Q8IU85|KCC1D_HUMAN 110 IVEKGFYTEKDASTLIRQVLDAVYYLHRMGIVHRDLKPENLLYYSQDEeskIMISDFGLSKMEGKGDVMSTACGTPGYVAPEVLAQKP 197
+                            *******************************************94444478**********9999999******************** PP
+
+                Pkinase 174 ygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqhpw 261
+                            y+k+vD Ws+Gvi y ll+g ppf++e++++ +e++l+        e+++++p +++is++akd++++l++kdp+kR+t+e++ +hpw
+  sp|Q8IU85|KCC1D_HUMAN 198 YSKAVDCWSIGVIAYILLCGYPPFYDENDSKLFEQILKA-------EYEFDSPYWDDISDSAKDFIRNLMEKDPNKRYTCEQAARHPW 278
+                            *************************88877766666665.......99**************************************** PP
+
+                Pkinase 262 f 262
+                            +
+  sp|Q8IU85|KCC1D_HUMAN 279 I 279
+                            7 PP
+
+>> sp|Q38997|KIN10_ARATH  SNF1-related protein kinase catalytic subunit alpha KIN10 OS=Arabidopsis thaliana OX=3702 GN=K
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  279.4   0.0   8.7e-86   8.7e-86       1     262 []      19     271 ..      19     271 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 279.4 bits;  conditional E-value: 8.7e-86
+                Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfd 87 
+                            y+ +++lG Gsfg+V+ a ++ tg++vAiK+++++k+k+++  +kv+rEikil+ + hp+i+rl++v+e+++++ylv+Eyv+ gelfd
+  sp|Q38997|KIN10_ARATH  19 YKLGRTLGIGSFGRVKIAEHALTGHKVAIKILNRRKIKNMEMeEKVRREIKILRLFMHPHIIRLYEVIETPTDIYLVMEYVNSGELFD 106
+                            78899********************************9988789******************************************** PP
+
+                Pkinase  88 llsrkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekgelKitDFGlakelessskltsfvgtseYmAPEvlkskky. 174
+                            ++ +kg l+e+ea+++++qi++g+ey+H++ vvHrDlKpeN+L+d+k ++Ki+DFGl++ +++++ l++ +g+++Y+APEv+++k y 
+  sp|Q38997|KIN10_ARATH 107 YIVEKGRLQEDEARNFFQQIISGVEYCHRNMVVHRDLKPENLLLDSKCNVKIADFGLSNIMRDGHFLKTSCGSPNYAAPEVISGKLYa 194
+                            **********************************************************************************999999 PP
+
+                Pkinase 175 gkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqhpwf 262
+                            g++vDvWs+Gvily ll+g+ pf +e+  + ++k+               +  ps++s+ a+dl+ ++l +dp kR+t+ e+ qhpwf
+  sp|Q38997|KIN10_ARATH 195 GPEVDVWSCGVILYALLCGTLPFDDENIPNLFKKIKGG-----------IYTLPSHLSPGARDLIPRMLVVDPMKRVTIPEIRQHPWF 271
+                            ************************66665555444444...........67889*********************************8 PP
+
+>> tr|A0E864|A0E864_PARTE  Calcium-dependent protein kinase 1 OS=Paramecium tetraurelia OX=5888 GN=GSPATT00024209001 PE=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  277.6   0.1   3.2e-85   3.2e-85       1     262 []     225     480 ..     225     480 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 277.6 bits;  conditional E-value: 3.2e-85
+                 Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfd 87 
+                             y+ ++ lG+G+fgkV k+++k+tg i A+K+ikk++  k++e+k+++E++ilk+l+hp+iv+l++ +++++++y+++Ey++ggelf+
+  tr|A0E864|A0E864_PARTE 225 YTFGQVLGQGAFGKVWKVTHKTTGLIRAMKQIKKSELIKEDEQKLFQEMHILKNLDHPHIVKLYELYQDQNNYYMITEYLSGGELFE 311
+                             78899********************************************************************************** PP
+
+                 Pkinase  88 llsrkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLid.ekge..lKitDFGlakelessskltsfvgtseYmAPEvlks 171
+                             ++++ ++++e++a+++++qil +++y+H++++vHrDlKpeN+L++  + +  lKi+DFG ++++++s+ +t++ gt++Y+APEvl +
+  tr|A0E864|A0E864_PARTE 312 RIKKMQVFTEKRASELIRQILLAINYCHDQKIVHRDLKPENVLFSgPEPDlnLKIIDFGCSRRFNTSK-MTKRLGTPYYIAPEVL-G 396
+                             *********************************************6444467**************98.****************.7 PP
+
+                 Pkinase 172 kkygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellq 258
+                             ++y++k+D+Ws+Gvily ll+g ppf +++e+e++ek            lk+  +e++ +s+eak+l++k++++d + R++a ++l+
+  tr|A0E864|A0E864_PARTE 397 HNYTEKCDIWSCGVILYILLCGYPPFTGKTEQEIFEKVKLG-------RLKFPNEEWEFVSKEAKHLIQKMIQVDVNLRYSAPQALN 476
+                             88*************************88888866666666.......778999********************************* PP
+
+                 Pkinase 259 hpwf 262
+                             +pwf
+  tr|A0E864|A0E864_PARTE 477 DPWF 480
+                             ***8 PP
+
+>> sp|P92958|KIN11_ARATH  SNF1-related protein kinase catalytic subunit alpha KIN11 OS=Arabidopsis thaliana OX=3702 GN=K
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  274.3   0.0   3.2e-84   3.2e-84       1     262 []      20     272 ..      20     272 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 274.3 bits;  conditional E-value: 3.2e-84
+                Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfd 87 
+                            y+ +++lG GsfgkV+ a +  tg++vAiK+++++k+k+++  +kv+rEikil+ + hp+i+r ++v+e+++++y+v+Eyv+ gelfd
+  sp|P92958|KIN11_ARATH  20 YKLGKTLGIGSFGKVKIAEHVVTGHKVAIKILNRRKIKNMEMeEKVRREIKILRLFMHPHIIRQYEVIETTSDIYVVMEYVKSGELFD 107
+                            78899********************************9988789******************************************** PP
+
+                Pkinase  88 llsrkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekgelKitDFGlakelessskltsfvgtseYmAPEvlkskky. 174
+                            ++ +kg l+e+ea+++++qi++g+ey+H++ vvHrDlKpeN+L+d++ ++Ki+DFGl++ +++++ l++ +g+++Y+APEv+++k y 
+  sp|P92958|KIN11_ARATH 108 YIVEKGRLQEDEARNFFQQIISGVEYCHRNMVVHRDLKPENLLLDSRCNIKIADFGLSNVMRDGHFLKTSCGSPNYAAPEVISGKLYa 195
+                            **********************************************************************************999999 PP
+
+                Pkinase 175 gkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqhpwf 262
+                            g++vDvWs+Gvily ll+g+ pf +e+  + ++k+               +  ps++s+ea+dl+ ++l +dp kR+t+ e+ qh+wf
+  sp|P92958|KIN11_ARATH 196 GPEVDVWSCGVILYALLCGTLPFDDENIPNLFKKIKGG-----------IYTLPSHLSSEARDLIPRMLIVDPVKRITIPEIRQHRWF 272
+                            ************************66665555444444...........67889*********************************8 PP
+
+>> sp|Q16566|KCC4_HUMAN  Calcium/calmodulin-dependent protein kinase type IV OS=Homo sapiens OX=9606 GN=CAMK4 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  274.4   0.0   3.1e-84   3.1e-84       1     262 []      46     300 ..      46     300 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 274.4 bits;  conditional E-value: 3.1e-84
+               Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdll 89 
+                           +ev+++lG+G+++ Vy++++k t+k +A+K++kk+ +kk     v++Ei +l +l+hpni++l+++fe+++e+ lvlE+v+ggelfd++
+  sp|Q16566|KCC4_HUMAN  46 FEVESELGRGATSIVYRCKQKGTQKPYALKVLKKTVDKK----IVRTEIGVLLRLSHPNIIKLKEIFETPTEISLVLELVTGGELFDRI 130
+                           68999*****************************98886....578******************************************* PP
+
+               Pkinase  90 srkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekge...lKitDFGlakelessskltsfvgtseYmAPEvlkskkyg 175
+                            +kg +se++a + +kqile+++ylH++g+vHrDlKpeN+L+ +      lKi+DFGl+k +e++  +++++gt+ Y+APE+l++  yg
+  sp|Q16566|KCC4_HUMAN 131 VEKGYYSERDAADAVKQILEAVAYLHENGIVHRDLKPENLLYATPAPdapLKIADFGLSKIVEHQVLMKTVCGTPGYCAPEILRGCAYG 219
+                           *******************************************4333578*************************************** PP
+
+               Pkinase 176 kkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqhpwf 262
+                           ++vD+Ws+G+i y ll+g +pf++e++++ + +      +il+ e+ + +p+++++s +akdl++kl+  dpkkRlt+ ++lqhpw+
+  sp|Q16566|KCC4_HUMAN 220 PEVDMWSVGIITYILLCGFEPFYDERGDQFMFR------RILNCEYYFISPWWDEVSLNAKDLVRKLIVLDPKKRLTTFQALQHPWV 300
+                           ***********************7777763222......466678999**************************************6 PP
+
+>> sp|A0A5K1K8H0|CDPK5_PLAF7  Calcium-dependent protein kinase 5 OS=Plasmodium falciparum (isolate 3D7) OX=36329 GN=CDPK
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  272.9   1.4   8.5e-84   8.5e-84       6     262 .]     130     379 ..     124     379 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 272.9 bits;  conditional E-value: 8.5e-84
+                    Pkinase   6 klGeGsfgkVykaveketgkivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdll 89 
+                                klG+Gs+g+V+kav+k+tg++ AiK+i+k+k+++ ++  + rEi i+k+++hpni++l++v+e++++lylvlE+++ggelfd +
+  sp|A0A5K1K8H0|CDPK5_PLAF7 130 KLGKGSYGNVVKAVSKRTGQQRAIKIIEKKKIHNIER--LKREILIMKQMDHPNIIKLYEVYEDNEKLYLVLELCDGGELFDKI 211
+                                8*******************************99875..********************************************* PP
+
+                    Pkinase  90 srkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLid.ekge..lKitDFGlakelessskltsfvgtseYmAPEvlk 170
+                                 + g++se ea ki+kqi+++l y+Hs++++HrDlKpeNiL+  ++++  ++i+D+G+a++  ++++l+s+vgt++Y+APE+l 
+  sp|A0A5K1K8H0|CDPK5_PLAF7 212 VKYGSFSEYEAYKIMKQIFSALYYCHSKNIMHRDLKPENILYVdNTEDspIQIIDWGFASKCMNNHNLKSVVGTPYYIAPEIL- 294
+                                *****************************************994444499*********************************. PP
+
+                    Pkinase 171 skkygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltae 254
+                                + ky+k +D+Ws Gvi+y ll+g ppf++++++e+ +k  +        e  ++++ + ++s++akdl+ ++l+++ k+R+ +e
+  sp|A0A5K1K8H0|CDPK5_PLAF7 295 RGKYDKRCDIWSSGVIMYILLCGYPPFNGKNNDEILKKVEKG-------EFVFDSNYWARVSDDAKDLICQCLNYNYKERIDVE 371
+                                668*************************88888855555555.......88899****************************** PP
+
+                    Pkinase 255 ellqhpwf 262
+                                ++l+h+wf
+  sp|A0A5K1K8H0|CDPK5_PLAF7 372 QVLKHRWF 379
+                                *******8 PP
+
+>> tr|Q9BJF5|Q9BJF5_TOXGO  non-specific serine/threonine protein kinase OS=Toxoplasma gondii OX=5811 GN=CDPK1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  272.1   0.3   1.5e-83   1.5e-83       1     262 []      51     308 ..      51     308 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 272.1 bits;  conditional E-value: 1.5e-83
+                 Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelf 86 
+                             y+ ++ lG+Gsfg+V+++++k tg++ A+K+i+k++ k+k++ +++lrE+++lk+l+hpni++l+++fe+k ++ylv E+ +ggelf
+  tr|Q9BJF5|Q9BJF5_TOXGO  51 YKGQRVLGKGSFGEVILCKDKITGQECAVKVISKRQVKQKTDkESLLREVQLLKQLDHPNIMKLYEFFEDKGYFYLVGEVYTGGELF 137
+                             566899*******************************99999899****************************************** PP
+
+                 Pkinase  87 dllsrkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekge...lKitDFGlakelessskltsfvgtseYmAPEvlk 170
+                             d +  ++ +se +a +i++q+l+g+ y+H++++vHrDlKpeN+L+++k++   ++i+DFGl++++e s+k+++ +gt +Y+APEvl 
+  tr|Q9BJF5|Q9BJF5_TOXGO 138 DEIISRKRFSEVDAARIIRQVLSGITYMHKNKIVHRDLKPENLLLESKSKdanIRIIDFGLSTHFEASKKMKDKIGTAYYIAPEVL- 223
+                             **********************************************6555578*********************************. PP
+
+                 Pkinase 171 skkygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeell 257
+                             +  y++k+DvWs Gvily ll+g ppf++ +e ++ +k       + k +++++lp+++++se+akdl++k+l++ p+ R++a+++l
+  tr|Q9BJF5|Q9BJF5_TOXGO 224 HGTYDEKCDVWSTGVILYILLSGCPPFNGANEYDILKK-------VEKGKYTFELPQWKKVSESAKDLIRKMLTYVPSMRISARDAL 303
+                             889*************************6666553333.......5555999*********************************** PP
+
+                 Pkinase 258 qhpwf 262
+                             +h+w+
+  tr|Q9BJF5|Q9BJF5_TOXGO 304 DHEWI 308
+                             ****7 PP
+
+>> sp|Q14012|KCC1A_HUMAN  Calcium/calmodulin-dependent protein kinase type 1 OS=Homo sapiens OX=9606 GN=CAMK1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  271.7   0.0     2e-83     2e-83       1     262 []      20     276 ..      20     276 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 271.7 bits;  conditional E-value: 2e-83
+                Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdl 88 
+                            y   + lG+G+f++V++a +k+t+k+vAiK+i ke  + k+  ++ +Ei +l+k+khpniv l d++e+  +lyl++ +v+ggelfd+
+  sp|Q14012|KCC1A_HUMAN  20 YDFRDVLGTGAFSEVILAEDKRTQKLVAIKCIAKEALEGKE-GSMENEIAVLHKIKHPNIVALDDIYESGGHLYLIMQLVSGGELFDR 106
+                            566789*****************************888776.69******************************************** PP
+
+                Pkinase  89 lsrkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLid...ekgelKitDFGlakelessskltsfvgtseYmAPEvlkskk 173
+                            + +kg+++e++a++++ q+l++++ylH+ g+vHrDlKpeN+L+    e++++ i+DFGl+k  +++s l++ +gt+ Y+APEvl +k+
+  sp|Q14012|KCC1A_HUMAN 107 IVEKGFYTERDASRLIFQVLDAVKYLHDLGIVHRDLKPENLLYYsldEDSKIMISDFGLSKMEDPGSVLSTACGTPGYVAPEVLAQKP 194
+                            ******************************************753226777************************************* PP
+
+                Pkinase 174 ygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqhpw 261
+                            y+k+vD Ws+Gvi y ll+g ppf++e++ + +e++l+        e+++++p +++is++akd++++l++kdp+kR+t+e++lqhpw
+  sp|Q14012|KCC1A_HUMAN 195 YSKAVDCWSIGVIAYILLCGYPPFYDENDAKLFEQILKA-------EYEFDSPYWDDISDSAKDFIRHLMEKDPEKRFTCEQALQHPW 275
+                            *************************77776655555555.......99**************************************** PP
+
+                Pkinase 262 f 262
+                            +
+  sp|Q14012|KCC1A_HUMAN 276 I 276
+                            7 PP
+
+>> sp|P62344|CDPK1_PLAF7  Calcium-dependent protein kinase 1 OS=Plasmodium falciparum (isolate 3D7) OX=36329 GN=CDPK1 PE
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  269.8   3.1   7.3e-83   7.3e-83       3     262 .]      58     325 ..      56     325 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 269.8 bits;  conditional E-value: 7.3e-83
+                Pkinase   3 vleklGeGsfgkVykaveketgkivAiKkikkekakkkke.............kkvlrEikilkklkhpnivrlidvfeekdelylvl 77 
+                            +++klG+G++g+V +++ek+ + + AiK+ikk++ +k+k              +++++Ei++lk+l+hpni++l+dvfe+k+++ylv+
+  sp|P62344|CDPK1_PLAF7  58 KVRKLGSGAYGEVLLCREKHGHGEKAIKVIKKSQFDKMKYsitnkiecddkihEEIYNEISLLKSLDHPNIIKLFDVFEDKKYFYLVT 145
+                            789*******************************99999899999*******99********************************** PP
+
+                Pkinase  78 EyveggelfdllsrkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekge...lKitDFGlakelessskltsfvgtse 162
+                            E+ eggelf+ + ++  ++e +a +i+kqil+g+ ylH++++vHrD+KpeNiL+++k     +Ki+DFGl++ +++++kl+++ gt +
+  sp|P62344|CDPK1_PLAF7 146 EFYEGGELFEQIINRHKFDECDAANIMKQILSGICYLHKHNIVHRDIKPENILLENKHSllnIKIVDFGLSSFFSKDNKLRDRLGTAY 233
+                            *******************************************************7776899************************** PP
+
+                Pkinase 163 YmAPEvlkskkygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkR 250
+                            Y+APEvl +kky +k+DvWs+Gvily ll+g ppf +++++++ +k  +        ++ ++++ +++iseeak+l+k +l++d +kR
+  sp|P62344|CDPK1_PLAF7 234 YIAPEVL-RKKYNEKCDVWSCGVILYILLCGYPPFGGQNDQDIIKKVEKG-------KYYFDFNDWKNISEEAKELIKLMLTYDYNKR 313
+                            *******.899*************************88888854444444.......899**************************** PP
+
+                Pkinase 251 ltaeellqhpwf 262
+                            +ta+e+l+++w+
+  sp|P62344|CDPK1_PLAF7 314 ITAKEALNSKWI 325
+                            ***********7 PP
+
+>> sp|Q15746|MYLK_HUMAN  Myosin light chain kinase, smooth muscle OS=Homo sapiens OX=9606 GN=MYLK PE=1 SV=4
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  269.1   0.0   1.2e-82   1.2e-82       1     262 []    1464    1719 ..    1464    1719 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 269.1 bits;  conditional E-value: 1.2e-82
+               Pkinase    1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfd 87  
+                            y ++e lG+G+fg+V++ vek+t+k++A K +k  +ak+k++  +++Ei+i++ l+hp++v+++d+feek ++++vlE+v+ggelf+
+  sp|Q15746|MYLK_HUMAN 1464 YDIEERLGSGKFGQVFRLVEKKTRKVWAGKFFKAYSAKEKEN--IRQEISIMNCLHHPKLVQCVDAFEEKANIVMVLEIVSGGELFE 1548
+                            77899******************************9999775..****************************************999 PP
+
+               Pkinase   88 llsrkga.lseeeakkilkqilegleylHsegvvHrDlKpeNiLid.ekge.lKitDFGlakelessskltsfvgtseYmAPEvlks 171 
+                            ++ ++ + l+e+e+ k+++qi eg+ey+H++g+vH DlKpeNi++  ++g+ +K++DFGla++le+  +l+   gt+e++APEv+++
+  sp|Q15746|MYLK_HUMAN 1549 RIIDEDFeLTERECIKYMRQISEGVEYIHKQGIVHLDLKPENIMCVnKTGTrIKLIDFGLARRLENAGSLKVLFGTPEFVAPEVINY 1635
+                            88855555**************************************566669*********************************** PP
+
+               Pkinase  172 kkygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellq 258 
+                            +++g ++D+Ws+Gvi+y l++g +pf +++++e+ ++ ++        +++++ +  ++is++akd++++llkkd+k+Rl ++++lq
+  sp|Q15746|MYLK_HUMAN 1636 EPIGYATDMWSIGVICYILVSGLSPFMGDNDNETLANVTSA-------TWDFDDEAFDEISDDAKDFISNLLKKDMKNRLDCTQCLQ 1715
+                            ***************************99999877766666.......99************************************* PP
+
+               Pkinase  259 hpwf 262 
+                            hpw+
+  sp|Q15746|MYLK_HUMAN 1716 HPWL 1719
+                            ***6 PP
+
+>> sp|Q8RWL2|CDPKT_ARATH  Calcium-dependent protein kinase 29 OS=Arabidopsis thaliana OX=3702 GN=CPK29 PE=2 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  268.7   0.0   1.6e-82   1.6e-82       1     262 []      85     343 ..      85     343 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 268.7 bits;  conditional E-value: 1.6e-82
+                Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklk.hpnivrlidvfeekdelylvlEyveggelf 86 
+                            y  +++lG+G+fg  yk+++k++g+++A+K i+k+k   +k+ ++v+rE+ il++l   pniv++ +++e+kd+l+lv+E+++ggelf
+  sp|Q8RWL2|CDPKT_ARATH  85 YDLHKELGRGQFGITYKCTDKSNGREYACKSISKRKLIRRKDiEDVRREVMILQHLTgQPNIVEFRGAYEDKDNLHLVMELCSGGELF 172
+                            67899*******************************9999999********************************************* PP
+
+                Pkinase  87 dllsrkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekge...lKitDFGlakelessskltsfvgtseYmAPEvlks 171
+                            d++ +kg++se+ea +i++qi++ ++ +H +gvvHrDlKpeN+L+ +++e   +K tDFGl+  +e+++ ++++vg+ +Y+APEvl +
+  sp|Q8RWL2|CDPKT_ARATH 173 DRIIKKGSYSEKEAANIFRQIVNVVHVCHFMGVVHRDLKPENFLLVSNEEdspIKATDFGLSVFIEEGKVYRDIVGSAYYVAPEVL-H 259
+                            *********************************************96665699*********************************.9 PP
+
+                Pkinase 172 kkygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqh 259
+                            ++ygk++DvWs+Gv+ly ll+g ppf++e+ek+++e++l+        +l++++ ++ +ise+akdl++k+l +dpkkR+ta e+l+h
+  sp|Q8RWL2|CDPKT_ARATH 260 RNYGKEIDVWSAGVMLYILLSGVPPFWGETEKTIFEAILEG-------KLDLETSPWPTISESAKDLIRKMLIRDPKKRITAAEALEH 340
+                            99*************************99999999999888.......8899************************************ PP
+
+                Pkinase 260 pwf 262
+                            pw+
+  sp|Q8RWL2|CDPKT_ARATH 341 PWM 343
+                            **7 PP
+
+>> tr|S8F5F3|S8F5F3_TOXGM  Calcium-dependent protein kinase 1 OS=Toxoplasma gondii (strain ATCC 50611 / Me49) OX=508771 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  268.1   0.0   2.5e-82   2.5e-82       5     262 .]     280     530 ..     277     530 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 268.1 bits;  conditional E-value: 2.5e-82
+                 Pkinase   5 eklGeGsfgkVykaveketgkivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsr 91 
+                              +lG+G++g+V ka++k+tg++ A+K+i+k++ k+ ++  +++Ei i+k+l+hpn+++l+++fe+++++ylv+E+++ggelfd++  
+  tr|S8F5F3|S8F5F3_TOXGM 280 ATLGQGTYGSVSKARKKDTGQMRAVKTISKSQVKNLER--FRQEIAIMKELDHPNVIKLFETFEDHRNIYLVMELCTGGELFDRIIS 364
+                             68*****************************9999775..*********************************************** PP
+
+                 Pkinase  92 kgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekge...lKitDFGlakelessskltsfvgtseYmAPEvlkskkyg 175
+                             +g l+e++a  ++kq++++++ylHs++++HrDlKpeN+L+ ++     lKi+DFGl++++++++ +++  gt++Y+AP vl + ky+
+  tr|S8F5F3|S8F5F3_TOXGM 365 EGRLTEKQAAVLMKQMFSAVHYLHSNNIMHRDLKPENFLFLDSARdspLKIIDFGLSCRFKKGEFVSTKAGTPYYVAPQVL-QGKYD 450
+                             **************************************9884443489*********************************.678** PP
+
+                 Pkinase 176 kkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqhpwf 262
+                               +D WslGvily ll+g ppf++e++ e  +k  +          +++ pe++++seea++l+++l++ +p++R+tae++lqhpw+
+  tr|S8F5F3|S8F5F3_TOXGM 451 FRCDAWSLGVILYILLCGYPPFYGETDAEVLAKVKTG-------VFSFSGPEWKRVSEEARELIRHLININPQERYTAEQALQHPWV 530
+                             ***********************88877755555555.......67899*************************************6 PP
+
+>> SteCoe_26883  CDPK family kinase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  268.4   0.2     2e-82     2e-82       1     262 []      51     309 ..      51     309 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 268.4 bits;  conditional E-value: 2e-82
+       Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke..kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsrkgal 95 
+                   y +++klG+G+fg V  +++k++g++ AiK+i+ke+++k+++  +++++E++il k +hpniv+l++++e++++++lv+E+v+ggelfd++ ++++l
+  SteCoe_26883  51 YIIGNKLGSGAFGFVRVGTHKASGHKRAIKTIQKESITKDMKehSNFFNEVDILIKADHPNIVKLYEWYEDDKYYHLVTEFVSGGELFDFIIKSRML 147
+                   56789*******************************9998887899*************************************************** PP
+
+       Pkinase  96 seeeakkilkqilegleylHsegvvHrDlKpeNiLidekge...lKitDFGlakelessskltsfvgtseYmAPEvlkskkygkkvDvWslGvilye 189
+                   se  a +++kqil++++y+Hs+++vHrDlKpeN+L+++++    lKi+DFG +k ++++ k+t+  gt +Y+APEvl +++y++k+D+Ws+Gvily 
+  SteCoe_26883 148 SEPIAAHFMKQILSAVAYCHSNNIVHRDLKPENLLLEKDSAdslLKIIDFGTSKIYDNGGKMTQKYGTAYYIAPEVL-RRDYTEKCDIWSCGVILYI 243
+                   *************************************7666799*********************************.889**************** PP
+
+       Pkinase 190 lltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqhpwf 262
+                   ll+gkppf+++++ e+ e+  +        +++++ +e+ +is +ak+l+kk+l+++p++R++a+++l+++w+
+  SteCoe_26883 244 LLSGKPPFYGRTDREILERVQRG-------QYSMEDNEWGRISIQAKNLIKKMLQMNPSSRISAQDALKDEWI 309
+                   *********88877755555555.......8999**************************************7 PP
+
+>> sp|O62305|KCC2D_CAEEL  Calcium/calmodulin-dependent protein kinase type II OS=Caenorhabditis elegans OX=6239 GN=unc-4
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  265.3   0.0   1.8e-81   1.8e-81       1     262 []      12     269 ..      12     269 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 265.3 bits;  conditional E-value: 1.8e-81
+                Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdl 88 
+                            y v+e+lG+G+f++V ++v+k+tg ++A K+i+++k + ++ +k+ rE +i +kl+hpnivrl+d+++e++  ylv+++v+ggelf+ 
+  sp|O62305|KCC2D_CAEEL  12 YDVKEELGKGAFSVVRRCVHKTTGLEFAAKIINTKKLSARDFQKLEREARICRKLQHPNIVRLHDSIQEESFHYLVFDLVTGGELFED 99 
+                            7899**********************************9999********************************************** PP
+
+                Pkinase  89 lsrkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekge...lKitDFGlakelessskltsfvgtseYmAPEvlkskk 173
+                            + ++ ++se++a++ ++qile+++y+Hs+g+vHrDlKpeN+L+ +k +   +K++DFGla e+++s+  + f gt+ Y++PEvlk+ +
+  sp|O62305|KCC2D_CAEEL 100 IVAREFYSEADASHCIQQILESIAYCHSNGIVHRDLKPENLLLASKAKgaaVKLADFGLAIEVNDSEAWHGFAGTPGYLSPEVLKKDP 187
+                            ********************************************8877889************************************* PP
+
+                Pkinase 174 ygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqhpw 261
+                            y+k+vD+W++Gvily ll g ppf++e+++  ++++           ++  +pe++++ +eak+l++++l+++pkkR+ta+++l+ pw
+  sp|O62305|KCC2D_CAEEL 188 YSKPVDIWACGVILYILLVGYPPFWDEDQHRLYAQIKAG-------AYDYPSPEWDTVTPEAKSLIDSMLTVNPKKRITADQALKVPW 268
+                            *************************66666655555555.......78999************************************* PP
+
+                Pkinase 262 f 262
+                            +
+  sp|O62305|KCC2D_CAEEL 269 I 269
+                            7 PP
+
+>> sp|Q38868|CDPK9_ARATH  Calcium-dependent protein kinase 9 OS=Arabidopsis thaliana OX=3702 GN=CPK9 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  264.8   0.0   2.6e-81   2.6e-81       1     262 []      91     349 ..      91     349 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 264.8 bits;  conditional E-value: 2.6e-81
+                Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklk.hpnivrlidvfeekdelylvlEyveggelf 86 
+                            y+ +++lG+G+fg+ y+++e++tgk++A+K i+k+k  +k + ++++rEi+i+++l+  pniv++++++e+++ + lv+E++ ggelf
+  sp|Q38868|CDPK9_ARATH  91 YTLGKELGRGQFGVTYLCTENSTGKKYACKSISKKKLVTKADkDDMRREIQIMQHLSgQPNIVEFKGAYEDEKAVNLVMELCAGGELF 178
+                            78899*****************************99988887799******************************************* PP
+
+                Pkinase  87 dllsrkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekge...lKitDFGlakelessskltsfvgtseYmAPEvlks 171
+                            d++ +kg+++e+ a ++++qi++ ++ +H +gv+HrDlKpeN+L+++k+e   +K tDFGl+  +e+++ ++++vg+ +Y+APEvl +
+  sp|Q38868|CDPK9_ARATH 179 DRIIAKGHYTERAAASVCRQIVNVVKICHFMGVLHRDLKPENFLLSSKDEkalIKATDFGLSVFIEEGKVYRDIVGSAYYVAPEVL-R 265
+                            **********************************************5555699*********************************.7 PP
+
+                Pkinase 172 kkygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqh 259
+                            ++ygk+vD+Ws+G+ily ll+g ppf+ae+ek ++ ++l+        + +++++++ sis++akdl++++l+ dpk+R++a ++lqh
+  sp|Q38868|CDPK9_ARATH 266 RRYGKEVDIWSAGIILYILLSGVPPFWAETEKGIFDAILEG-------HIDFESQPWPSISSSAKDLVRRMLTADPKRRISAADVLQH 346
+                            89*************************99998877777777.......899************************************* PP
+
+                Pkinase 260 pwf 262
+                            pw+
+  sp|Q38868|CDPK9_ARATH 347 PWL 349
+                            **6 PP
+
+>> sp|O43293|DAPK3_HUMAN  Death-associated protein kinase 3 OS=Homo sapiens OX=9606 GN=DAPK3 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  263.0   0.0     9e-81     9e-81       1     262 []      13     275 ..      13     275 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 263.0 bits;  conditional E-value: 9e-81
+                Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke....kkvlrEikilkklkhpnivrlidvfeekdelylvlEyvegge 84 
+                            ye +e+lG+G+f+ V k+++k tgk++A K ikk++ +++++    +++ rE++il++++hpni++l+d+fe+k++++l+lE+v+gge
+  sp|O43293|DAPK3_HUMAN  13 YEMGEELGSGQFAIVRKCRQKGTGKEYAAKFIKKRRLSSSRRgvsrEEIEREVNILREIRHPNIITLHDIFENKTDVVLILELVSGGE 100
+                            7899**********************************99999999****************************************** PP
+
+                Pkinase  85 lfdllsrkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekge....lKitDFGlakelessskltsfvgtseYmAPEv 168
+                            lfd+l +k +l+e+ea ++lkqil+g++ylHs+++ H DlKpeNi++ +k+     +K++DFG+a ++e +++++++ gt+e++APE+
+  sp|O43293|DAPK3_HUMAN 101 LFDFLAEKESLTEDEATQFLKQILDGVHYLHSKRIAHFDLKPENIMLLDKNVpnprIKLIDFGIAHKIEAGNEFKNIFGTPEFVAPEI 188
+                            **********************************************9966668899******************************** PP
+
+                Pkinase 169 lkskkygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeel 256
+                            +++++ g ++D+Ws+Gvi y ll+g +pf +e+++e     l   ++i  ++++++ +  s+ se akd++++ll kdpk+R+t+ + 
+  sp|O43293|DAPK3_HUMAN 189 VNYEPLGLEADMWSIGVITYILLSGASPFLGETKQE----TL---TNISAVNYDFDEEYFSNTSELAKDFIRRLLVKDPKRRMTIAQS 269
+                            ******************************666655....33...34666899*********************************** PP
+
+                Pkinase 257 lqhpwf 262
+                            l+h+w+
+  sp|O43293|DAPK3_HUMAN 270 LEHSWI 275
+                            *****7 PP
+
+>> tr|Q229U9|Q229U9_TETTS  Calcium-dependent protein kinase 1 OS=Tetrahymena thermophila (strain SB210) OX=312017 GN=TTH
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  263.5   1.2   6.2e-81   6.2e-81       1     262 []      47     305 ..      47     305 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 263.5 bits;  conditional E-value: 6.2e-81
+                 Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelf 86 
+                             y+ +  lG G+f++V k+++++t+ + A+K+i+k++ +++++ +k+++E++il+ l+hp+i ++++ +++++++y++lE+++ggelf
+  tr|Q229U9|Q229U9_TETTS  47 YKLGGVLGVGAFSQVRKVTNRKTKAVRAMKIINKRSLTNSEDqQKFINEVEILRLLDHPHILKIYEQYQDNNNYYIILEMCTGGELF 133
+                             677889*****************************999888879******************************************* PP
+
+                 Pkinase  87 dllsrkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLid..ekge....lKitDFGlakelessskltsfvgtseYmAPE 167
+                               + +kg++se+ea+ i++qi++++ y H++++vHrDlKpeNiL+d  +  +    +Ki+D+G +k +e+++ + +  gt++Y+APE
+  tr|Q229U9|Q229U9_TETTS 134 AKIIEKGSFSEKEASYIMNQIVSAVFYAHNHKIVHRDLKPENILLDitS--DgtynIKIVDWGTSKIFEQDEVMVEKFGTPYYIAPE 218
+                             **********************************************633..34589******************************* PP
+
+                 Pkinase 168 vlkskkygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltae 254
+                             vl +k+y +k+DvWs+Gvily ll+g+ppf +++e e++++  +        +++++ ++ +++seeakdl++++l+++pk+Rl+a+
+  tr|Q229U9|Q229U9_TETTS 219 VL-KKSYNEKCDVWSCGVILYILLSGTPPFGGKNELEIMANVEK-------GQYSLEGDNLKHVSEEAKDLIRQMLEYNPKNRLSAS 297
+                             **.899*************************7777664444444.......489999****************************** PP
+
+                 Pkinase 255 ellqhpwf 262
+                             ++l+h+wf
+  tr|Q229U9|Q229U9_TETTS 298 QVLEHKWF 305
+                             *******8 PP
+
+>> sp|Q38869|CDPK4_ARATH  Calcium-dependent protein kinase 4 OS=Arabidopsis thaliana OX=3702 GN=CPK4 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  263.7   0.0   5.7e-81   5.7e-81       3     262 .]      27     283 ..      25     283 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 263.7 bits;  conditional E-value: 5.7e-81
+                Pkinase   3 vleklGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklk.hpnivrlidvfeekdelylvlEyveggelfdl 88 
+                             ++klG+G+fg+ y+++ek+++  +A+K i k+k   +++ ++v+rEi+i+++l+ hpn+vr+++++e++  +++v+E++eggelfd+
+  sp|Q38869|CDPK4_ARATH  27 LGKKLGQGQFGTTYLCTEKSSSANYACKSIPKRKLVCREDyEDVWREIQIMHHLSeHPNVVRIKGTYEDSVFVHIVMEVCEGGELFDR 114
+                            679*********************************99999*********************************************** PP
+
+                Pkinase  89 lsrkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekge...lKitDFGlakelessskltsfvgtseYmAPEvlkskk 173
+                            +  kg++se+ea k++k+il  +e +Hs gv+HrDlKpeN+L+d+ ++   lK tDFGl+  +++++ l ++vg+++Y+APEvl +k 
+  sp|Q38869|CDPK4_ARATH 115 IVSKGCFSEREAAKLIKTILGVVEACHSLGVMHRDLKPENFLFDSPSDdakLKATDFGLSVFYKPGQYLYDVVGSPYYVAPEVL-KKC 201
+                            ********************************************5443467*********************************.788 PP
+
+                Pkinase 174 ygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqhpw 261
+                            yg+++DvWs+Gvily ll+g ppf+ae+e+ +++++l+        + ++k++++ +ise akdl+ k+l++ pkkR++a+e+l hpw
+  sp|Q38869|CDPK4_ARATH 202 YGPEIDVWSAGVILYILLSGVPPFWAETESGIFRQILQG-------KIDFKSDPWPTISEGAKDLIYKMLDRSPKKRISAHEALCHPW 282
+                            *************************88888866666666.......899*************************************** PP
+
+                Pkinase 262 f 262
+                            +
+  sp|Q38869|CDPK4_ARATH 283 I 283
+                            7 PP
+
+>> SteCoe_19366  CDPK family kinase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  262.9   0.0   9.5e-81   9.5e-81       1     262 []      23     280 ..      23     280 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 262.9 bits;  conditional E-value: 9.5e-81
+       Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsrkgals 96 
+                   y++++klG+G+fg+V k++++ tg+i A+K+i+k++ ++++e +++++E+++l+ l+hpn+ +l++++++++++yl++E+++ggelfd++  +g++s
+  SteCoe_19366  23 YRIGNKLGDGAFGSVRKITHRVTGEIRAVKTIHKKNLRSEEErQTFFNEVSVLRALDHPNVLKLYEYYQDEKNYYLITELCSGGELFDRIISHGSFS 119
+                   77899*******************************999998899**************************************************** PP
+
+       Pkinase  97 eeeakkilkqilegleylHsegvvHrDlKpeNiLid...ekgelKitDFGlakelessskltsfvgtseYmAPEvlkskkygkkvDvWslGvilyel 190
+                   e+ a +++kqil+ ++y H++++vHrDlKpeN+L+d   e+ +lK++DFG a+ ++++ ++ts  gt++Y+APEvl + +y++ +DvWs+Gv +y l
+  SteCoe_19366 120 EAMAANYMKQILSVIAYAHDRNIVHRDLKPENFLLDtisEDANLKVIDFGTAQFFTPGRNMTSKFGTPYYIAPEVL-KCNYDERCDVWSAGVNMYVL 215
+                   ***********************************95433556*********************************.778***************** PP
+
+       Pkinase 191 ltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqhpwf 262
+                   l+g ppf +++++++ +k++           ++ +pe++ is eakdl++k+l+ d ++R++a+e+lqhpw+
+  SteCoe_19366 216 LCGYPPFGGSNDDQILKKIAIG-------RFSFPSPEWDFISFEAKDLITKMLSFDFTRRMSAREALQHPWL 280
+                   ********99999866666666.......78899*************************************6 PP
+
+>> sp|Q06850|CDPK1_ARATH  Calcium-dependent protein kinase 1 OS=Arabidopsis thaliana OX=3702 GN=CPK1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  262.9   0.0   9.6e-81   9.6e-81       1     262 []     150     408 ..     150     408 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 262.9 bits;  conditional E-value: 9.6e-81
+                Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklk.hpnivrlidvfeekdelylvlEyveggelf 86 
+                            y+ ++klG+G+fg+ +++vek+tgk++A+K i k+k  ++++ ++v+rEi+i+++l  hpn++ +++++e+   ++lv+E++ ggelf
+  sp|Q06850|CDPK1_ARATH 150 YSLGRKLGQGQFGTTFLCVEKTTGKEFACKSIAKRKLLTDEDvEDVRREIQIMHHLAgHPNVISIKGAYEDVVAVHLVMECCAGGELF 237
+                            77899********************************999999********************************************* PP
+
+                Pkinase  87 dllsrkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekge...lKitDFGlakelessskltsfvgtseYmAPEvlks 171
+                            d++ ++g+++e++a +++++i+  +e +Hs gv+HrDlKpeN+L+ +k e   lK +DFGl+  ++++  +t++vg+++Y+APEvl +
+  sp|Q06850|CDPK1_ARATH 238 DRIIQRGHYTERKAAELTRTIVGVVEACHSLGVMHRDLKPENFLFVSKHEdslLKTIDFGLSMFFKPDDVFTDVVGSPYYVAPEVL-R 324
+                            *********************************************95555599*********************************.8 PP
+
+                Pkinase 172 kkygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqh 259
+                            k+yg+++DvWs+Gvi+y ll+g ppf+ae+e+ ++e+ l+        +l+++++++ sise+akdl++k+l +dpkkRlta+++l h
+  sp|Q06850|CDPK1_ARATH 325 KRYGPEADVWSAGVIVYILLSGVPPFWAETEQGIFEQVLHG-------DLDFSSDPWPSISESAKDLVRKMLVRDPKKRLTAHQVLCH 405
+                            99*************************99999999999999.......999************************************* PP
+
+                Pkinase 260 pwf 262
+                            pw+
+  sp|Q06850|CDPK1_ARATH 406 PWV 408
+                            **6 PP
+
+>> sp|Q42479|CDPK3_ARATH  Calcium-dependent protein kinase 3 OS=Arabidopsis thaliana OX=3702 GN=CPK3 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  260.2   0.0   6.6e-80   6.6e-80       1     262 []      78     336 ..      78     336 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 260.2 bits;  conditional E-value: 6.6e-80
+                Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklk.hpnivrlidvfeekdelylvlEyveggelf 86 
+                            ye +++lG+G+fg+ y++++ket+++vA+K i +++  +k++ ++v+rE++i+++l+ h+niv l++++e+ +++ l++E++eggelf
+  sp|Q42479|CDPK3_ARATH  78 YEFGRELGRGQFGVTYLVTHKETKQQVACKSIPTRRLVHKDDiEDVRREVQIMHHLSgHRNIVDLKGAYEDRHSVNLIMELCEGGELF 165
+                            7899**********************************99999********************************************* PP
+
+                Pkinase  87 dllsrkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekge...lKitDFGlakelessskltsfvgtseYmAPEvlks 171
+                            d++  kg +se+ a ++++q++  ++ +Hs+gv+HrDlKpeN+L+ +k+e   lK tDFGl+  ++++ k+++ vg+ +Y+APEvl +
+  sp|Q42479|CDPK3_ARATH 166 DRIISKGLYSERAAADLCRQMVMVVHSCHSMGVMHRDLKPENFLFLSKDEnspLKATDFGLSVFFKPGDKFKDLVGSAYYVAPEVL-K 252
+                            ********************************************994444599*********************************.7 PP
+
+                Pkinase 172 kkygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqh 259
+                            ++yg+++D+Ws+Gvily ll+g ppf++e+e+ ++ ++l+        +l+++ +++  +s+ akdl++k+lk+dpk+Rlta e+l+h
+  sp|Q42479|CDPK3_ARATH 253 RNYGPEADIWSAGVILYILLSGVPPFWGENETGIFDAILQG-------QLDFSADPWPALSDGAKDLVRKMLKYDPKDRLTAAEVLNH 333
+                            89*************************99999977777777.......899************************************* PP
+
+                Pkinase 260 pwf 262
+                            pw+
+  sp|Q42479|CDPK3_ARATH 334 PWI 336
+                            **7 PP
+
+>> tr|I7M2A9|I7M2A9_TETTS  Calcium-dependent protein kinase 1 OS=Tetrahymena thermophila (strain SB210) OX=312017 GN=TTH
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  261.7   0.0   2.3e-80   2.3e-80       3     262 .]      30     294 ..      28     294 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 261.7 bits;  conditional E-value: 2.3e-80
+                 Pkinase   3 vleklGeGsfgkVykaveketgkivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdll 89 
+                              +++lG+G++g+V+k++ k+++++ AiK+i k++ k+ +  ++l+Ei+i+++l+hpni++l+++fe+ +++ylv+E+++ggelfd++
+  tr|I7M2A9|I7M2A9_TETTS  30 SKKTLGQGTYGSVIKVKLKNSNQQRAIKIIPKSRVKNPQ--RFLNEINIMRNLDHPNIIKLYETFEDARNVYLVMELCDGGELFDRI 114
+                             5799*****************************999865..6********************************************* PP
+
+                 Pkinase  90 srkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekge...lKitDFGlakelesssk.............ltsfvgt 160
+                              +kg+++e+ea+  ++qi+++++++Hs+g++HrDlKpeN+L+ +k++   +K++DFGl+  +++++              ++++ gt
+  tr|I7M2A9|I7M2A9_TETTS 115 IAKGHYTEQEARITFTQIVQAVNHCHSNGICHRDLKPENFLLLNKSDdspIKVIDFGLSYIFQENELkigggpitgeklsMSTRAGT 201
+                             ****************************************9996666799*************99889******************* PP
+
+                 Pkinase 161 seYmAPEvlkskkygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdp 247
+                             ++Y++PEvl + ky++ +D+WslGvil+ ll+g ppf++ +++ + e+  ++       + ++++pe +++se+akdl++k+l+  p
+  tr|I7M2A9|I7M2A9_TETTS 202 PYYISPEVL-EGKYDEGCDIWSLGVILFILLSGVPPFYGPNDSAILEMVKSR-------KFSFDIPEFNNVSESAKDLIRKCLT-TP 279
+                             *********.778*************************88887755444444.......788*********************7.69 PP
+
+                 Pkinase 248 kkRltaeellqhpwf 262
+                             +kR+ta+++lqhpw+
+  tr|I7M2A9|I7M2A9_TETTS 280 DKRFTASQILQHPWM 294
+                             **************7 PP
+
+>> sp|P06782|SNF1_YEAST  Carbon catabolite-derepressing protein kinase OS=Saccharomyces cerevisiae (strain ATCC 204508 /
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  261.8   0.0   2.2e-80   2.2e-80       1     262 []      55     306 ..      55     306 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 261.8 bits;  conditional E-value: 2.2e-80
+               Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdl 88 
+                           y+++++lGeGsfgkV++a++++tg++vA+K+i+k+   k++   ++ rEi++l+ l+hp+i++l+dv+++kde+++v+Ey+ + elfd+
+  sp|P06782|SNF1_YEAST  55 YQIVKTLGEGSFGKVKLAYHTTTGQKVALKIINKKVLAKSDMqGRIEREISYLRLLRHPHIIKLYDVIKSKDEIIMVIEYAGN-ELFDY 142
+                           7899*****************************99866555449************************************995.5**** PP
+
+               Pkinase  89 lsrkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekgelKitDFGlakelessskltsfvgtseYmAPEvlkskky.gk 176
+                           + ++  +se+ea+++++qi++++ey+H++++vHrDlKpeN+L+de+ ++Ki+DFGl++ +++++ l++ +g+++Y+APEv+++k y g+
+  sp|P06782|SNF1_YEAST 143 IVQRDKMSEQEARRFFQQIISAVEYCHRHKIVHRDLKPENLLLDEHLNVKIADFGLSNIMTDGNFLKTSCGSPNYAAPEVISGKLYaGP 231
+                           *********************************************************************************999999** PP
+
+               Pkinase 177 kvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqhpwf 262
+                           +vDvWs+Gvily +l+++ pf +e+    ++++            +  +  p+ +s+ a  l+k++l ++p +R++++e++q++wf
+  sp|P06782|SNF1_YEAST 232 EVDVWSCGVILYVMLCRRLPFDDESIPVLFKNIS-----------NGVYTLPKFLSPGAAGLIKRMLIVNPLNRISIHEIMQDDWF 306
+                           **********************444444333333...........4467788999******************************8 PP
+
+>> sp|Q38870|CDPK2_ARATH  Calcium-dependent protein kinase 2 OS=Arabidopsis thaliana OX=3702 GN=CPK2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  260.4   0.0   5.7e-80   5.7e-80       1     262 []     186     444 ..     186     444 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 260.4 bits;  conditional E-value: 5.7e-80
+                Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklk.hpnivrlidvfeekdelylvlEyveggelf 86 
+                            y+ ++klG+G+fg+ ++++ek tg+++A+K i+k+k  ++++ ++v+rEi+i+++l  hpn++ +++++e+   ++lv+E+++ggelf
+  sp|Q38870|CDPK2_ARATH 186 YSLGRKLGQGQFGTTFLCLEKGTGNEYACKSISKRKLLTDEDvEDVRREIQIMHHLAgHPNVISIKGAYEDVVAVHLVMELCSGGELF 273
+                            77899********************************999999********************************************* PP
+
+                Pkinase  87 dllsrkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekge...lKitDFGlakelessskltsfvgtseYmAPEvlks 171
+                            d++ ++g+++e++a +++++i+  le +Hs gv+HrDlKpeN+L+ +++e   lK +DFGl+  +++++ +t++vg+++Y+APEvl +
+  sp|Q38870|CDPK2_ARATH 274 DRIIQRGHYTERKAAELARTIVGVLEACHSLGVMHRDLKPENFLFVSREEdslLKTIDFGLSMFFKPDEVFTDVVGSPYYVAPEVL-R 360
+                            *********************************************96666699*********************************.8 PP
+
+                Pkinase 172 kkygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqh 259
+                            k+yg+++DvWs+Gvi+y ll+g ppf+ae+e+ ++e+ l+        +l+++++++ sise+akdl++k+l +dpk+Rlta+++l h
+  sp|Q38870|CDPK2_ARATH 361 KRYGPESDVWSAGVIVYILLSGVPPFWAETEQGIFEQVLHG-------DLDFSSDPWPSISESAKDLVRKMLVRDPKRRLTAHQVLCH 441
+                            99*************************99999999999999.......999************************************* PP
+
+                Pkinase 260 pwf 262
+                            pw+
+  sp|Q38870|CDPK2_ARATH 442 PWV 444
+                            **6 PP
+
+>> sp|Q13557|KCC2D_HUMAN  Calcium/calmodulin-dependent protein kinase type II subunit delta OS=Homo sapiens OX=9606 GN=C
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  260.0   0.0   7.3e-80   7.3e-80       1     262 []      14     272 ..      14     272 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 260.0 bits;  conditional E-value: 7.3e-80
+                Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdl 88 
+                            y+  e+lG+G+f++V ++++  tg+++A K+i+++k + ++++k+ rE +i + lkhpnivrl+d+++e+   ylv+++v+ggelf+ 
+  sp|Q13557|KCC2D_HUMAN  14 YQLFEELGKGAFSVVRRCMKIPTGQEYAAKIINTKKLSARDHQKLEREARICRLLKHPNIVRLHDSISEEGFHYLVFDLVTGGELFED 101
+                            78899*********************************************************************************** PP
+
+                Pkinase  89 lsrkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekge...lKitDFGlakelesssk.ltsfvgtseYmAPEvlksk 172
+                            + ++  +se++a++ ++qile+++++H +g+vHrDlKpeN+L+ +k++   +K++DFGla e++ +++    f gt+ Y++PEvl++ 
+  sp|Q13557|KCC2D_HUMAN 102 IVAREYYSEADASHCIQQILESVNHCHLNGIVHRDLKPENLLLASKSKgaaVKLADFGLAIEVQGDQQaWFGFAGTPGYLSPEVLRKD 189
+                            ********************************************7777789**************9996779**************** PP
+
+                Pkinase 173 kygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqhp 260
+                            +ygk+vD+W++Gvily ll g ppf++e+++  ++++           +++ +pe++++ +eakdl++k+l+ +p kR+ta+e+l+hp
+  sp|Q13557|KCC2D_HUMAN 190 PYGKPVDMWACGVILYILLVGYPPFWDEDQHRLYQQIKAG-------AYDFPSPEWDTVTPEAKDLINKMLTINPAKRITASEALKHP 270
+                            **************************66665555544444.......899************************************** PP
+
+                Pkinase 261 wf 262
+                            w+
+  sp|Q13557|KCC2D_HUMAN 271 WI 272
+                            *7 PP
+
+>> sp|Q6PHZ2|KCC2D_MOUSE  Calcium/calmodulin-dependent protein kinase type II subunit delta OS=Mus musculus OX=10090 GN=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  260.0   0.0   7.3e-80   7.3e-80       1     262 []      14     272 ..      14     272 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 260.0 bits;  conditional E-value: 7.3e-80
+                Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdl 88 
+                            y+  e+lG+G+f++V ++++  tg+++A K+i+++k + ++++k+ rE +i + lkhpnivrl+d+++e+   ylv+++v+ggelf+ 
+  sp|Q6PHZ2|KCC2D_MOUSE  14 YQLFEELGKGAFSVVRRCMKIPTGQEYAAKIINTKKLSARDHQKLEREARICRLLKHPNIVRLHDSISEEGFHYLVFDLVTGGELFED 101
+                            78899*********************************************************************************** PP
+
+                Pkinase  89 lsrkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekge...lKitDFGlakelesssk.ltsfvgtseYmAPEvlksk 172
+                            + ++  +se++a++ ++qile+++++H +g+vHrDlKpeN+L+ +k++   +K++DFGla e++ +++    f gt+ Y++PEvl++ 
+  sp|Q6PHZ2|KCC2D_MOUSE 102 IVAREYYSEADASHCIQQILESVNHCHLNGIVHRDLKPENLLLASKSKgaaVKLADFGLAIEVQGDQQaWFGFAGTPGYLSPEVLRKD 189
+                            ********************************************7777789**************9996779**************** PP
+
+                Pkinase 173 kygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqhp 260
+                            +ygk+vD+W++Gvily ll g ppf++e+++  ++++           +++ +pe++++ +eakdl++k+l+ +p kR+ta+e+l+hp
+  sp|Q6PHZ2|KCC2D_MOUSE 190 PYGKPVDMWACGVILYILLVGYPPFWDEDQHRLYQQIKAG-------AYDFPSPEWDTVTPEAKDLINKMLTINPAKRITASEALKHP 270
+                            **************************66665555544444.......899************************************** PP
+
+                Pkinase 261 wf 262
+                            w+
+  sp|Q6PHZ2|KCC2D_MOUSE 271 WI 272
+                            *7 PP
+
+>> sp|P11798|KCC2A_MOUSE  Calcium/calmodulin-dependent protein kinase type II subunit alpha OS=Mus musculus OX=10090 GN=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  258.7   0.0   1.8e-79   1.8e-79       1     262 []      13     271 ..      13     271 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 258.7 bits;  conditional E-value: 1.8e-79
+                Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdl 88 
+                            y+  e+lG+G+f++V ++v+   g+++A K+i+++k + ++++k+ rE +i + lkhpnivrl+d+++e+ + yl++++v+ggelf+ 
+  sp|P11798|KCC2A_MOUSE  13 YQLFEELGKGAFSVVRRCVKVLAGQEYAAKIINTKKLSARDHQKLEREARICRLLKHPNIVRLHDSISEEGHHYLIFDLVTGGELFED 100
+                            78899*********************************************************************************** PP
+
+                Pkinase  89 lsrkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekge...lKitDFGlakelesssk.ltsfvgtseYmAPEvlksk 172
+                            + ++  +se++a++ ++qile++ ++H++gvvHrDlKpeN+L+ +k +   +K++DFGla e+e +++    f gt+ Y++PEvl++ 
+  sp|P11798|KCC2A_MOUSE 101 IVAREYYSEADASHCIQQILEAVLHCHQMGVVHRDLKPENLLLASKLKgaaVKLADFGLAIEVEGEQQaWFGFAGTPGYLSPEVLRKD 188
+                            ********************************************8777789**************9996779**************** PP
+
+                Pkinase 173 kygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqhp 260
+                            +ygk+vD+W++Gvily ll g ppf++e+++  ++++           +++ +pe++++ +eakdl++k+l+ +p+kR+ta e+l+hp
+  sp|P11798|KCC2A_MOUSE 189 PYGKPVDLWACGVILYILLVGYPPFWDEDQHRLYQQIKAG-------AYDFPSPEWDTVTPEAKDLINKMLTINPSKRITAAEALKHP 269
+                            **************************66665555544444.......899************************************** PP
+
+                Pkinase 261 wf 262
+                            w+
+  sp|P11798|KCC2A_MOUSE 270 WI 271
+                            *7 PP
+
+>> sp|Q9UQM7|KCC2A_HUMAN  Calcium/calmodulin-dependent protein kinase type II subunit alpha OS=Homo sapiens OX=9606 GN=C
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  258.7   0.0   1.8e-79   1.8e-79       1     262 []      13     271 ..      13     271 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 258.7 bits;  conditional E-value: 1.8e-79
+                Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdl 88 
+                            y+  e+lG+G+f++V ++v+   g+++A K+i+++k + ++++k+ rE +i + lkhpnivrl+d+++e+ + yl++++v+ggelf+ 
+  sp|Q9UQM7|KCC2A_HUMAN  13 YQLFEELGKGAFSVVRRCVKVLAGQEYAAKIINTKKLSARDHQKLEREARICRLLKHPNIVRLHDSISEEGHHYLIFDLVTGGELFED 100
+                            78899*********************************************************************************** PP
+
+                Pkinase  89 lsrkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekge...lKitDFGlakelesssk.ltsfvgtseYmAPEvlksk 172
+                            + ++  +se++a++ ++qile++ ++H++gvvHrDlKpeN+L+ +k +   +K++DFGla e+e +++    f gt+ Y++PEvl++ 
+  sp|Q9UQM7|KCC2A_HUMAN 101 IVAREYYSEADASHCIQQILEAVLHCHQMGVVHRDLKPENLLLASKLKgaaVKLADFGLAIEVEGEQQaWFGFAGTPGYLSPEVLRKD 188
+                            ********************************************8777789**************9996779**************** PP
+
+                Pkinase 173 kygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqhp 260
+                            +ygk+vD+W++Gvily ll g ppf++e+++  ++++           +++ +pe++++ +eakdl++k+l+ +p+kR+ta e+l+hp
+  sp|Q9UQM7|KCC2A_HUMAN 189 PYGKPVDLWACGVILYILLVGYPPFWDEDQHRLYQQIKAG-------AYDFPSPEWDTVTPEAKDLINKMLTINPSKRITAAEALKHP 269
+                            **************************66665555544444.......899************************************** PP
+
+                Pkinase 261 wf 262
+                            w+
+  sp|Q9UQM7|KCC2A_HUMAN 270 WI 271
+                            *7 PP
+
+>> sp|Q13131|AAPK1_HUMAN  5'-AMP-activated protein kinase catalytic subunit alpha-1 OS=Homo sapiens OX=9606 GN=PRKAA1 PE
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  258.7   0.0   1.8e-79   1.8e-79       3     262 .]      29     279 ..      27     279 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 258.7 bits;  conditional E-value: 1.8e-79
+                Pkinase   3 vleklGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdll 89 
+                             +++lG G+fgkV+ ++++ tg++vA+K+++++k+++ +   k++rEi+ lk ++hp+i++l++v+++++++++v+Eyv+ggelfd++
+  sp|Q13131|AAPK1_HUMAN  29 LGDTLGVGTFGKVKVGKHELTGHKVAVKILNRQKIRSLDVvGKIRREIQNLKLFRHPHIIKLYQVISTPSDIFMVMEYVSGGELFDYI 116
+                            6789*********************************99899********************************************** PP
+
+                Pkinase  90 srkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekgelKitDFGlakelessskltsfvgtseYmAPEvlkskky.gk 176
+                             ++g l+e+e +++++qil+g++y+H++ vvHrDlKpeN+L+d + + Ki+DFGl++ +++++ l++ +g+++Y+APEv++++ y g+
+  sp|Q13131|AAPK1_HUMAN 117 CKNGRLDEKESRRLFQQILSGVDYCHRHMVVHRDLKPENVLLDAHMNAKIADFGLSNMMSDGEFLRTSCGSPNYAAPEVISGRLYaGP 204
+                            ********************************************************************************999999** PP
+
+                Pkinase 177 kvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqhpwf 262
+                            +vD+Ws Gvily ll+g+ pf +++  + ++k++d             + +p+ +++++++llk++l++dp kR t++++ +h+wf
+  sp|Q13131|AAPK1_HUMAN 205 EVDIWSSGVILYALLCGTLPFDDDHVPTLFKKICDG-----------IFYTPQYLNPSVISLLKHMLQVDPMKRATIKDIREHEWF 279
+                            **********************99999999999998...........5678999*******************************8 PP
+
+>> sp|Q8IBS5|CDPK4_PLAF7  Calcium-dependent protein kinase 4 OS=Plasmodium falciparum (isolate 3D7) OX=36329 GN=CDPK4 PE
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  258.5   2.9   2.2e-79   2.2e-79       1     262 []      70     328 ..      70     328 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 258.5 bits;  conditional E-value: 2.2e-79
+                Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfd 87 
+                            y+ ++ lG+Gsfg+V++ ++k+tg+++AiK+i+k++ k k++ +++lrE+++lk l+h ni++l+++fe+++++ylv ++ +ggelfd
+  sp|Q8IBS5|CDPK4_PLAF7  70 YKGIKILGKGSFGEVILSRDKHTGHEYAIKVISKKHVKRKTDkESLLREVELLKMLDHINIMKLYEFFEDNNYYYLVSDVYTGGELFD 157
+                            566899******************************99998889******************************************** PP
+
+                Pkinase  88 llsrkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekge....lKitDFGlakelessskltsfvgtseYmAPEvlks 171
+                             +  ++ + e +a +i+kqil+g+ y+H+++vvHrDlKpeNiL+++k++    +Ki+DFGl++++e s+k+++ +gt +Y+AP vl +
+  sp|Q8IBS5|CDPK4_PLAF7 158 EIISRKRFYEIDAARIIKQILSGITYMHKNNVVHRDLKPENILLETKNKedmiIKIIDFGLSTHFEYSKKMKDKIGTAYYIAPDVL-H 244
+                            ***9*****************************************666669***********************************.8 PP
+
+                Pkinase 172 kkygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqh 259
+                              y++k+D+Ws+Gvily ll+g ppf++++e ++ +k           +++++lp+ ++is++akdl+kk+l +    R++a+++l+h
+  sp|Q8IBS5|CDPK4_PLAF7 245 GTYDEKCDIWSCGVILYILLSGCPPFNGSNEYDILKKVEA-------GKYTFDLPQFKKISDKAKDLIKKMLMYTSAVRISARDALEH 325
+                            89*************************7777664444444.......4899************************************* PP
+
+                Pkinase 260 pwf 262
+                            +w+
+  sp|Q8IBS5|CDPK4_PLAF7 326 EWI 328
+                            **7 PP
+
+>> sp|Q923T9|KCC2G_MOUSE  Calcium/calmodulin-dependent protein kinase type II subunit gamma OS=Mus musculus OX=10090 GN=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  257.7   0.0   3.7e-79   3.7e-79       1     262 []      14     272 ..      14     272 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 257.7 bits;  conditional E-value: 3.7e-79
+                Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdl 88 
+                            y+  e+lG+G+f++V ++v+k++ +++A K+i+++k + ++++k+ rE +i + lkhpnivrl+d+++e+   ylv+++v+ggelf+ 
+  sp|Q923T9|KCC2G_MOUSE  14 YQLFEELGKGAFSVVRRCVKKTSTQEYAAKIINTKKLSARDHQKLEREARICRLLKHPNIVRLHDSISEEGFHYLVFDLVTGGELFED 101
+                            78899*********************************************************************************** PP
+
+                Pkinase  89 lsrkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekge...lKitDFGlakelesssk.ltsfvgtseYmAPEvlksk 172
+                            + ++  +se++a++ ++qile+++++H++ +vHrDlKpeN+L+ +k +   +K++DFGla e++ +++    f gt+ Y++PEvl++ 
+  sp|Q923T9|KCC2G_MOUSE 102 IVAREYYSEADASHCIHQILESVNHIHQHDIVHRDLKPENLLLASKCKgaaVKLADFGLAIEVQGEQQaWFGFAGTPGYLSPEVLRKD 189
+                            ********************************************7766779**************9996779**************** PP
+
+                Pkinase 173 kygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqhp 260
+                            +ygk+vD+W++Gvily ll g ppf++e++++ ++++           +++ +pe++++ +eak+l++++l+ +p kR+ta+++l+hp
+  sp|Q923T9|KCC2G_MOUSE 190 PYGKPVDIWACGVILYILLVGYPPFWDEDQHKLYQQIKAG-------AYDFPSPEWDTVTPEAKNLINQMLTINPAKRITADQALKHP 270
+                            **************************66666655555555.......889************************************** PP
+
+                Pkinase 261 wf 262
+                            w+
+  sp|Q923T9|KCC2G_MOUSE 271 WV 272
+                            *6 PP
+
+>> sp|Q2QY37|CDPKQ_ORYSJ  Calcium-dependent protein kinase 26 OS=Oryza sativa subsp. japonica OX=39947 GN=CPK26 PE=2 SV=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  255.8   0.0   1.5e-78   1.5e-78       1     262 []      83     341 ..      83     341 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 255.8 bits;  conditional E-value: 1.5e-78
+                Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklk.hpnivrlidvfeekdelylvlEyveggelf 86 
+                            y+++++lG+G+fg+  ++++k+tg++ A+K+i k+k  +k++ ++v+rE++i+++l+  pniv l +++e+k++++lv+E++ ggelf
+  sp|Q2QY37|CDPKQ_ORYSJ  83 YSIGKELGRGQFGVTHLCTHKATGEKLACKTIAKRKLANKEDvDDVRREVQIMHHLSgQPNIVDLRGAYEDKHNVHLVMELCAGGELF 170
+                            78899*********************************99999********************************************* PP
+
+                Pkinase  87 dllsrkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekge...lKitDFGlakelessskltsfvgtseYmAPEvlks 171
+                            d++ ++g+++e+ a  +l+ i+  ++ +Hs+gv+HrDlKpeN+L+ +kg+   lK tDFGl+  +++++ ++++vg+ +Y+APEvl +
+  sp|Q2QY37|CDPKQ_ORYSJ 171 DRIIARGHYTERAAAALLRAIVGIVHTCHSMGVIHRDLKPENFLLLSKGDdapLKATDFGLSVFFKEGEVFRDIVGSAYYIAPEVL-K 257
+                            **********************************************999999**********************************.7 PP
+
+                Pkinase 172 kkygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqh 259
+                            +kyg+++D+Ws+Gv+ly +l+g ppf+ae+e+ +++++l+        + +++++++ +is+ akdl++k+l+ +pk+Rlta ++l+h
+  sp|Q2QY37|CDPKQ_ORYSJ 258 RKYGPEADIWSIGVMLYIFLAGVPPFWAESENAIFAAILRG-------QIDLASEPWPKISSGAKDLVRKMLNINPKERLTAFQVLNH 338
+                            89*************************99999999999999.......8899************************************ PP
+
+                Pkinase 260 pwf 262
+                            pw+
+  sp|Q2QY37|CDPKQ_ORYSJ 339 PWI 341
+                            **7 PP
+
+>> sp|Q13555|KCC2G_HUMAN  Calcium/calmodulin-dependent protein kinase type II subunit gamma OS=Homo sapiens OX=9606 GN=C
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  257.5   0.0   4.2e-79   4.2e-79       1     262 []      14     272 ..      14     272 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 257.5 bits;  conditional E-value: 4.2e-79
+                Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdl 88 
+                            y+  e+lG+G+f++V ++v+k++ +++A K+i+++k + ++++k+ rE +i + lkhpnivrl+d+++e+   ylv+++v+ggelf+ 
+  sp|Q13555|KCC2G_HUMAN  14 YQLFEELGKGAFSVVRRCVKKTSTQEYAAKIINTKKLSARDHQKLEREARICRLLKHPNIVRLHDSISEEGFHYLVFDLVTGGELFED 101
+                            78899*********************************************************************************** PP
+
+                Pkinase  89 lsrkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekge...lKitDFGlakelesssk.ltsfvgtseYmAPEvlksk 172
+                            + ++  +se++a++ ++qile+++++H++ +vHrDlKpeN+L+ +k +   +K++DFGla e++ +++    f gt+ Y++PEvl++ 
+  sp|Q13555|KCC2G_HUMAN 102 IVAREYYSEADASHCIHQILESVNHIHQHDIVHRDLKPENLLLASKCKgaaVKLADFGLAIEVQGEQQaWFGFAGTPGYLSPEVLRKD 189
+                            ********************************************7766779**************9996779**************** PP
+
+                Pkinase 173 kygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqhp 260
+                            +ygk+vD+W++Gvily ll g ppf++e++++ ++++           +++ +pe++++ +eak+l++++l+ +p kR+ta+++l+hp
+  sp|Q13555|KCC2G_HUMAN 190 PYGKPVDIWACGVILYILLVGYPPFWDEDQHKLYQQIKAG-------AYDFPSPEWDTVTPEAKNLINQMLTINPAKRITADQALKHP 270
+                            **************************66666655555555.......889************************************** PP
+
+                Pkinase 261 wf 262
+                            w+
+  sp|Q13555|KCC2G_HUMAN 271 WV 272
+                            *6 PP
+
+>> sp|P53355|DAPK1_HUMAN  Death-associated protein kinase 1 OS=Homo sapiens OX=9606 GN=DAPK1 PE=1 SV=6
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  257.2   0.0   5.3e-79   5.3e-79       1     262 []      13     275 ..      13     275 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 257.2 bits;  conditional E-value: 5.3e-79
+                Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke....kkvlrEikilkklkhpnivrlidvfeekdelylvlEyvegge 84 
+                            y ++e+lG+G+f++V+k++ek+tg ++A K ikk+++k++++    +++ rE++ilk+++hpn+++l++v+e+k++++l+lE+v gge
+  sp|P53355|DAPK1_HUMAN  13 YDTGEELGSGQFAVVKKCREKSTGLQYAAKFIKKRRTKSSRRgvsrEDIEREVSILKEIQHPNVITLHEVYENKTDVILILELVAGGE 100
+                            77899**********************************9999999****************************************** PP
+
+                Pkinase  85 lfdllsrkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekge....lKitDFGlakelessskltsfvgtseYmAPEv 168
+                            lfd+l +k +l+eeea ++lkqil+g+ ylHs ++ H DlKpeNi++ +++     +Ki+DFGla +++ +++++++ gt+e++APE+
+  sp|P53355|DAPK1_HUMAN 101 LFDFLAEKESLTEEEATEFLKQILNGVYYLHSLQIAHFDLKPENIMLLDRNVpkprIKIIDFGLAHKIDFGNEFKNIFGTPEFVAPEI 188
+                            **********************************************9966667899******************************** PP
+
+                Pkinase 169 lkskkygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeel 256
+                            +++++ g ++D+Ws+Gvi y ll+g +pf +++++e     l    ++  ++++++ +  s+ s  akd++++ll kdpkkR+t+++ 
+  sp|P53355|DAPK1_HUMAN 189 VNYEPLGLEADMWSIGVITYILLSGASPFLGDTKQE----TLA---NVSAVNYEFEDEYFSNTSALAKDFIRRLLVKDPKKRMTIQDS 269
+                            ******************************666655....222...34557999********************************** PP
+
+                Pkinase 257 lqhpwf 262
+                            lqhpw+
+  sp|P53355|DAPK1_HUMAN 270 LQHPWI 275
+                            *****7 PP
+
+>> sp|Q9UIK4|DAPK2_HUMAN  Death-associated protein kinase 2 OS=Homo sapiens OX=9606 GN=DAPK2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  257.3   0.0   4.8e-79   4.8e-79       1     262 []      23     285 ..      23     285 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 257.3 bits;  conditional E-value: 4.8e-79
+                Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke....kkvlrEikilkklkhpnivrlidvfeekdelylvlEyvegge 84 
+                            y ++e+lG+G+f+ V+k++ek+tg ++A K ikk++ + +++    +++ rE++il+++ h n+++l+dv+e+ ++++l+lE+v+gge
+  sp|Q9UIK4|DAPK2_HUMAN  23 YDIGEELGSGQFAIVKKCREKSTGLEYAAKFIKKRQSRASRRgvsrEEIEREVSILRQVLHHNVITLHDVYENRTDVVLILELVSGGE 110
+                            77899*******************************9999999999****************************************** PP
+
+                Pkinase  85 lfdllsrkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekge....lKitDFGlakelessskltsfvgtseYmAPEv 168
+                            lfd+l +k +lseeea +++kqil+g++ylH +++ H DlKpeNi++ +k+     +K++DFGla e+e++ +++++ gt+e++APE+
+  sp|Q9UIK4|DAPK2_HUMAN 111 LFDFLAQKESLSEEEATSFIKQILDGVNYLHTKKIAHFDLKPENIMLLDKNIpiphIKLIDFGLAHEIEDGVEFKNIFGTPEFVAPEI 198
+                            **********************************************9955547899******************************** PP
+
+                Pkinase 169 lkskkygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeel 256
+                            +++++ g ++D+Ws+Gvi y ll+g +pf +++++e+         +i+ + ++++ ++ s+ se akd+++kll k+ +kRlt++e+
+  sp|Q9UIK4|DAPK2_HUMAN 199 VNYEPLGLEADMWSIGVITYILLSGASPFLGDTKQETL-------ANITAVSYDFDEEFFSQTSELAKDFIRKLLVKETRKRLTIQEA 279
+                            ******************************66666522.......23566799*********************************** PP
+
+                Pkinase 257 lqhpwf 262
+                            l+hpw+
+  sp|Q9UIK4|DAPK2_HUMAN 280 LRHPWI 285
+                            *****7 PP
+
+>> sp|Q9M101|CDPKN_ARATH  Calcium-dependent protein kinase 23 OS=Arabidopsis thaliana OX=3702 GN=CPK23 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  255.2   0.0   2.1e-78   2.1e-78       1     262 []      69     327 ..      69     327 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 255.2 bits;  conditional E-value: 2.1e-78
+                Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklk.hpnivrlidvfeekdelylvlEyveggelf 86 
+                            y+ +++lG+G+ g  y ++e  tg+i+A+K i k+k  ++   ++v +Ei+i+++l+  pn+v++++++e+ ++++lv+E++ ggelf
+  sp|Q9M101|CDPKN_ARATH  69 YSLGRELGRGGLGITYMCKEIGTGNIYACKSILKRKLISELGrEDVKTEIQIMQHLSgQPNVVEIKGSYEDRHSVHLVMELCAGGELF 156
+                            67899**************************9999987766669******************************************** PP
+
+                Pkinase  87 dllsrkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekge...lKitDFGlakelessskltsfvgtseYmAPEvlks 171
+                            d++ ++g++se+ a   +k+i++ ++ +H +gv+HrDlKpeN+L+++k+e   lK+tDFGl++ +e+++ ++++vg+++Y+APEvl +
+  sp|Q9M101|CDPKN_ARATH 157 DRIIAQGHYSERAAAGTIKSIVDVVQICHLNGVIHRDLKPENFLFSSKEEnamLKVTDFGLSAFIEEGKIYKDVVGSPYYVAPEVL-R 243
+                            **********************************************6555588*********************************.8 PP
+
+                Pkinase 172 kkygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqh 259
+                            ++ygk++D+Ws+Gvily ll+g ppf+a++e+  + ++l+        + ++  +++ sis++akdl++k+l++dpk+R+ta ++l+h
+  sp|Q9M101|CDPKN_ARATH 244 QSYGKEIDIWSAGVILYILLCGVPPFWADNEEGVFVEILKC-------KIDFVREPWPSISDSAKDLVEKMLTEDPKRRITAAQVLEH 324
+                            99*************************88887755555555.......88999*********************************** PP
+
+                Pkinase 260 pwf 262
+                            pw+
+  sp|Q9M101|CDPKN_ARATH 325 PWI 327
+                            **7 PP
+
+>> SteCoe_34268  CDPK family kinase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  255.3   0.7     2e-78     2e-78       1     262 []      30     288 ..      30     288 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 255.3 bits;  conditional E-value: 2e-78
+       Pkinase   1 yevleklGeGsfgkVykaveket.gkivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsrkgals 96 
+                   y+  +k+G G+fg+V +a +k++ ++++AiKki+k++ ++++ + ++rEi+ilk+++hpni+++++++e+++ +y+v+Ey++ggelf+ ++ +g l 
+  SteCoe_34268  30 YKLTKKIGGGAFGTVWLAQRKDNsKCKFAIKKINKKEVQETEINLLRREIDILKEVDHPNIIKFYETYEDSNFIYIVMEYCSGGELFTKITSQGYLH 126
+                   7889***********999877651679***************9****************************************************** PP
+
+       Pkinase  97 eeeakkilkqilegleylHsegvvHrDlKpeNiLidekge...lKitDFGlakelesssk.ltsfvgtseYmAPEvlkskkygkkvDvWslGvilye 189
+                   e+eak +++++l ++++lHs ++vHrDlK+eN+++d+k     lK++DFGl+++++++ + ++s+vgt +Y+APEvl + +y +k+D+WslGv++++
+  SteCoe_34268 127 ENEAKLYMNKMLMAVSHLHSLKIVHRDLKTENFIFDSKCAskeLKLVDFGLSNKFSRNFEqMHSQVGTIYYVAPEVL-KGNYNNKCDLWSLGVLMFT 222
+                   ************************************6444456************999878****************.5679*************** PP
+
+       Pkinase 190 lltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqhpwf 262
+                   +l+g+ pf++e+  e ++k  +         +++++++++s+s +akdl+++ll ++p++R++a ++l+h+wf
+  SteCoe_34268 223 MLSGDLPFYDESLPEVYRKLNS-------GLYSFSSKNWESVSGTAKDLISNLLVVNPEDRFSAIDALSHEWF 288
+                   *********4444443333333.......37799**************************************8 PP
+
+>> sp|P28652|KCC2B_MOUSE  Calcium/calmodulin-dependent protein kinase type II subunit beta OS=Mus musculus OX=10090 GN=C
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  254.3   0.0   4.1e-78   4.1e-78       1     262 []      14     272 ..      14     272 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 254.3 bits;  conditional E-value: 4.1e-78
+                Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdl 88 
+                            y+  e +G+G+f++V ++v+  tg+++A K+i+++k + ++++k+ rE +i + lkh+nivrl+d+++e+   ylv+++v+ggelf+ 
+  sp|P28652|KCC2B_MOUSE  14 YQLYEDIGKGAFSVVRRCVKLCTGHEYAAKIINTKKLSARDHQKLEREARICRLLKHSNIVRLHDSISEEGFHYLVFDLVTGGELFED 101
+                            78899*********************************************************************************** PP
+
+                Pkinase  89 lsrkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekge...lKitDFGlakelesssk.ltsfvgtseYmAPEvlksk 172
+                            + ++  +se++a++ ++qile++ ++H++gvvHrDlKpeN+L+ +k +   +K++DFGla e++ +++    f gt+ Y++PEvl+++
+  sp|P28652|KCC2B_MOUSE 102 IVAREYYSEADASHCIQQILEAVLHCHQMGVVHRDLKPENLLLASKCKgaaVKLADFGLAIEVQGDQQaWFGFAGTPGYLSPEVLRKE 189
+                            ********************************************7766779**************9996779**************** PP
+
+                Pkinase 173 kygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqhp 260
+                             ygk+vD+W++Gvily ll g ppf++e++++ ++++           +++ +pe++++ +eak+l++++l+ +p kR+ta+e+l+hp
+  sp|P28652|KCC2B_MOUSE 190 AYGKPVDIWACGVILYILLVGYPPFWDEDQHKLYQQIKAG-------AYDFPSPEWDTVTPEAKNLINQMLTINPAKRITAHEALKHP 270
+                            **************************66666655555555.......889************************************** PP
+
+                Pkinase 261 wf 262
+                            w+
+  sp|P28652|KCC2B_MOUSE 271 WV 272
+                            *6 PP
+
+>> sp|Q9FXQ3|CDPKD_ORYSJ  Calcium-dependent protein kinase 13 OS=Oryza sativa subsp. japonica OX=39947 GN=CPK13 PE=2 SV=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  253.8   0.0   5.8e-78   5.8e-78       1     262 []      88     346 ..      88     346 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 253.8 bits;  conditional E-value: 5.8e-78
+                Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklk.hpnivrlidvfeekdelylvlEyveggelf 86 
+                            y  ++klG+G+fg+ y+++e +tg  +A+K i+k+k  +k++ ++v+rEi+i+++l+ h+n+v +++++e++ ++++v+E++ ggelf
+  sp|Q9FXQ3|CDPKD_ORYSJ  88 YAMGRKLGQGQFGTTYLCTELSTGVDYACKSISKRKLITKEDiEDVRREIQIMHHLSgHKNVVAIKGAYEDQLYVHIVMELCAGGELF 175
+                            67889*******************************9999999********************************************* PP
+
+                Pkinase  87 dllsrkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekge...lKitDFGlakelessskltsfvgtseYmAPEvlks 171
+                            d++ ++g++se++a ++++ i+  +e +Hs gv+HrDlKpeN+L+ +k++   lK +DFGl+  +++++++t++vg+++Y+APEvl  
+  sp|Q9FXQ3|CDPKD_ORYSJ 176 DRIIQRGHYSERKAAELTRIIVGVVEACHSLGVMHRDLKPENFLLANKDDdlsLKAIDFGLSVFFKPGQTFTDVVGSPYYVAPEVL-L 262
+                            **********************************************7666799*********************************.8 PP
+
+                Pkinase 172 kkygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqh 259
+                            k+yg+++DvW++Gvily ll+g ppf+ae+++ ++ + l+          +++++++  ise+akdl++k+l+ +pk+Rlta+e+l h
+  sp|Q9FXQ3|CDPKD_ORYSJ 263 KHYGPEADVWTAGVILYILLSGVPPFWAETQQGIFDAVLKG-------FIDFDSDPWPVISESAKDLITKMLNPRPKERLTAHEVLCH 343
+                            99*************************88888877777777.......6799************************************ PP
+
+                Pkinase 260 pwf 262
+                            pw+
+  sp|Q9FXQ3|CDPKD_ORYSJ 344 PWI 346
+                            **7 PP
+
+>> sp|Q13554|KCC2B_HUMAN  Calcium/calmodulin-dependent protein kinase type II subunit beta OS=Homo sapiens OX=9606 GN=CA
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  253.6   0.0   6.5e-78   6.5e-78       1     262 []      14     272 ..      14     272 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 253.6 bits;  conditional E-value: 6.5e-78
+                Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdl 88 
+                            y+  e +G+G+f++V ++v+  tg+++A K+i+++k + ++++k+ rE +i + lkh+nivrl+d+++e+   ylv+++v+ggelf+ 
+  sp|Q13554|KCC2B_HUMAN  14 YQLYEDIGKGAFSVVRRCVKLCTGHEYAAKIINTKKLSARDHQKLEREARICRLLKHSNIVRLHDSISEEGFHYLVFDLVTGGELFED 101
+                            788999********************************************************************************** PP
+
+                Pkinase  89 lsrkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekge...lKitDFGlakelesssk.ltsfvgtseYmAPEvlksk 172
+                            + ++  +se++a++ ++qile++ ++H++gvvHrDlKpeN+L+ +k +   +K++DFGla e++ +++    f gt+ Y++PEvl+++
+  sp|Q13554|KCC2B_HUMAN 102 IVAREYYSEADASHCIQQILEAVLHCHQMGVVHRDLKPENLLLASKCKgaaVKLADFGLAIEVQGDQQaWFGFAGTPGYLSPEVLRKE 189
+                            ********************************************7766779**************9996779**************** PP
+
+                Pkinase 173 kygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqhp 260
+                             ygk+vD+W++Gvily ll g ppf++e++++ ++++           +++ +pe++++ +eak+l++++l+ +p kR+ta+e+l+hp
+  sp|Q13554|KCC2B_HUMAN 190 AYGKPVDIWACGVILYILLVGYPPFWDEDQHKLYQQIKAG-------AYDFPSPEWDTVTPEAKNLINQMLTINPAKRITAHEALKHP 270
+                            **************************66666655555555.......889************************************** PP
+
+                Pkinase 261 wf 262
+                            w+
+  sp|Q13554|KCC2B_HUMAN 271 WV 272
+                            *6 PP
+
+>> sp|Q38872|CDPK6_ARATH  Calcium-dependent protein kinase 6 OS=Arabidopsis thaliana OX=3702 GN=CPK6 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  253.2   0.0   8.9e-78   8.9e-78       1     262 []      85     343 ..      85     343 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 253.2 bits;  conditional E-value: 8.9e-78
+                Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklk.hpnivrlidvfeekdelylvlEyveggelf 86 
+                            y+  +klG+G+fg+ y++++ +tg  +A+K i+k+k  +k++ ++v+rEi+i+++l  h+niv++++++e++ ++++v+E++ ggelf
+  sp|Q38872|CDPK6_ARATH  85 YTLSRKLGQGQFGTTYLCTDIATGVDYACKSISKRKLISKEDvEDVRREIQIMHHLAgHKNIVTIKGAYEDPLYVHIVMELCAGGELF 172
+                            78899********************************999999********************************************* PP
+
+                Pkinase  87 dllsrkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekge...lKitDFGlakelessskltsfvgtseYmAPEvlks 171
+                            d++ ++g++se++a +++k i+  +e +Hs gv+HrDlKpeN+L+ +k++   lK +DFGl+  +++++ ++++vg+++Y+APEvl  
+  sp|Q38872|CDPK6_ARATH 173 DRIIHRGHYSERKAAELTKIIVGVVEACHSLGVMHRDLKPENFLLVNKDDdfsLKAIDFGLSVFFKPGQIFKDVVGSPYYVAPEVL-L 259
+                            *********************************************9766679**********************************.8 PP
+
+                Pkinase 172 kkygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqh 259
+                            k+yg+++DvW++Gvily ll+g ppf+ae+++ ++ + l+          +++++++  is++akdl++k+l+  p++Rlta+e+l+h
+  sp|Q38872|CDPK6_ARATH 260 KHYGPEADVWTAGVILYILLSGVPPFWAETQQGIFDAVLKG-------YIDFDTDPWPVISDSAKDLIRKMLCSSPSERLTAHEVLRH 340
+                            99*************************88888866666666.......889************************************* PP
+
+                Pkinase 260 pwf 262
+                            pw+
+  sp|Q38872|CDPK6_ARATH 341 PWI 343
+                            **7 PP
+
+>> sp|P54646|AAPK2_HUMAN  5'-AMP-activated protein kinase catalytic subunit alpha-2 OS=Homo sapiens OX=9606 GN=PRKAA2 PE
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  249.9   0.0   8.9e-77   8.9e-77       1     262 []      16     268 ..      16     268 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 249.9 bits;  conditional E-value: 8.9e-77
+                Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfd 87 
+                            y  +++lG G+fgkV+ + ++ tg++vA+K+++++k+++ +   k+ rEi+ lk ++hp+i++l++v+++++++++v+Eyv+ggelfd
+  sp|P54646|AAPK2_HUMAN  16 YVLGDTLGVGTFGKVKIGEHQLTGHKVAVKILNRQKIRSLDVvGKIKREIQNLKLFRHPHIIKLYQVISTPTDFFMVMEYVSGGELFD 103
+                            667889*********************************998999******************************************* PP
+
+                Pkinase  88 llsrkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekgelKitDFGlakelessskltsfvgtseYmAPEvlkskky. 174
+                            ++ ++g ++e ea+++++qil++++y+H++ vvHrDlKpeN+L+d + + Ki+DFGl++ +++++ l++ +g+++Y+APEv++++ y 
+  sp|P54646|AAPK2_HUMAN 104 YICKHGRVEEMEARRLFQQILSAVDYCHRHMVVHRDLKPENVLLDAHMNAKIADFGLSNMMSDGEFLRTSCGSPNYAAPEVISGRLYa 191
+                            **********************************************************************************999999 PP
+
+                Pkinase 175 gkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqhpwf 262
+                            g++vD+Ws+Gvily ll+g+ pf +e+  + ++k+               +  p+ +++++  ll ++l++dp kR t++++ +h+wf
+  sp|P54646|AAPK2_HUMAN 192 GPEVDIWSCGVILYALLCGTLPFDDEHVPTLFKKIRGG-----------VFYIPEYLNRSVATLLMHMLQVDPLKRATIKDIREHEWF 268
+                            ************************77777766655555...........5677899*******************************8 PP
+
+>> SteCoe_18109  CDPK family kinase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  248.9   0.0   1.9e-76   1.9e-76       7     262 .]      61     310 ..      57     310 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 248.9 bits;  conditional E-value: 1.9e-76
+       Pkinase   7 lGeGsfgkVykaveketgkivAiKkikkekakkkke..kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsrkgalseeeak 101
+                   lG+G+ g+V  +++ +++++ ++K+i+k++  ++    +++ +E++i+k+l+hpn+ r++++fe+++++y+vlE+++gg+lfd + +   ++e++a 
+  SteCoe_18109  61 LGSGARGEVRICTHIASKDKRVVKIISKSTLPESLLgsESLSAEVNIMKELDHPNLPRIYEFFEDTEKFYIVLEFCKGGDLFDKIVELHLFEESKAA 157
+                   9****************************9999888899********************************************************** PP
+
+       Pkinase 102 kilkqilegleylHsegvvHrDlKpeNiLidekge..lKitDFGlakelessskltsfvgtseYmAPEvlkskkygkkvDvWslGvilyelltgkpp 196
+                   +i++qi++gl+ylHs+g+vHrD+KpeN+L+d+k+   lKi+DF  a+ + +++ ++++ gt+ YmAPEv+ + ky +k+D+Ws+G+i+y ll+g pp
+  SteCoe_18109 158 EIMSQIFSGLNYLHSRGIVHRDIKPENVLLDKKDSlkLKIIDFDTATFFGREK-FHEMYGTPMYMAPEVV-KGKYNEKCDIWSCGIIMYILLCGGPP 252
+                   *******************************777778**************98.****************.6689********************** PP
+
+       Pkinase 197 fsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqhpwf 262
+                   f ++++     k+l++      ++ k++ +++++is eakdll+kll  +p+kR+ta+e+++h+w+
+  SteCoe_18109 253 FDGTDDA--IFKILKN------VNIKLEGERWNKISIEAKDLLSKLLVANPEKRITASEACKHKWI 310
+                   **33332..2334444......57889**************************************7 PP
+
+>> sp|Q32MK0|MYLK3_HUMAN  Myosin light chain kinase 3 OS=Homo sapiens OX=9606 GN=MYLK3 PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  246.9   0.1   7.2e-76   7.2e-76       4     262 .]     518     770 ..     515     770 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 246.9 bits;  conditional E-value: 7.2e-76
+                Pkinase   4 leklGeGsfgkVykaveketgkivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsr 91 
+                            +e lG G fg+V +++ek+tg   A K+ik ++ak++++  v +Ei+i+++l+h n+++l+d+fe+k++ +lv+Eyv+ggelfd++++
+  sp|Q32MK0|MYLK3_HUMAN 518 HEVLGGGRFGQVHRCTEKSTGLPLAAKIIKVKSAKDRED--VKNEINIMNQLSHVNLIQLYDAFESKHSCTLVMEYVDGGELFDRITD 603
+                            689********************************9886..**********************************************5 PP
+
+                Pkinase  92 kga.lseeeakkilkqilegleylHsegvvHrDlKpeNiLid.ekge.lKitDFGlakelessskltsfvgtseYmAPEvlkskkygk 176
+                            ++  l+e ++  +++qi+eg++ylH++ ++H DlKpeNiL+  ++g+ +Ki+DFGla+++++++kl+   gt+e++APEv++++ ++ 
+  sp|Q32MK0|MYLK3_HUMAN 604 EKYhLTELDVVLFTRQICEGVHYLHQHYILHLDLKPENILCVnQTGHqIKIIDFGLARRYKPREKLKVNFGTPEFLAPEVVNYEFVSF 691
+                            5555*************************************9777779**************************************** PP
+
+                Pkinase 177 kvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqhpwf 262
+                            ++D+Ws+Gvi y ll+g +pf +e++ e+++ +++         ++++ ++ + +seeakd++++ll k+++ R++a+++l+h+w+
+  sp|Q32MK0|MYLK3_HUMAN 692 PTDMWSVGVITYMLLSGLSPFLGETDAETMNFIVNC-------SWDFDADTFEGLSEEAKDFVSRLLVKEKSCRMSATQCLKHEWL 770
+                            **********************88888766666666.......99****************************************6 PP
+
+>> sp|Q38871|CDPK5_ARATH  Calcium-dependent protein kinase 5 OS=Arabidopsis thaliana OX=3702 GN=CPK5 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  246.2   0.0   1.2e-75   1.2e-75       1     262 []      97     355 ..      97     355 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 246.2 bits;  conditional E-value: 1.2e-75
+                Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklk.hpnivrlidvfeekdelylvlEyveggelf 86 
+                            y+  +klG+G+fg+ y+++e ++g  +A+K i+k+k  +k++ ++v+rEi+i+++l  h  iv++++++e++ ++++v+E++ ggelf
+  sp|Q38871|CDPK5_ARATH  97 YTLSRKLGQGQFGTTYLCTEIASGVDYACKSISKRKLISKEDvEDVRREIQIMHHLAgHGSIVTIKGAYEDSLYVHIVMELCAGGELF 184
+                            78899********************************999999********************************************* PP
+
+                Pkinase  87 dllsrkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekge...lKitDFGlakelessskltsfvgtseYmAPEvlks 171
+                            d++ ++g++se++a +++k i+  +e +Hs gv+HrDlKpeN+L+ +k++   lK +DFGl+  +++++ +t++vg+++Y+APEvl  
+  sp|Q38871|CDPK5_ARATH 185 DRIIQRGHYSERKAAELTKIIVGVVEACHSLGVMHRDLKPENFLLVNKDDdfsLKAIDFGLSVFFKPGQIFTDVVGSPYYVAPEVL-L 271
+                            *********************************************9766679**********************************.8 PP
+
+                Pkinase 172 kkygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqh 259
+                            k+yg+++DvW++Gvily ll+g ppf+ae+++ ++ + l+          +++++++  is++akdl++++l+ +p +Rlta+e+l+h
+  sp|Q38871|CDPK5_ARATH 272 KRYGPEADVWTAGVILYILLSGVPPFWAETQQGIFDAVLKG-------YIDFESDPWPVISDSAKDLIRRMLSSKPAERLTAHEVLRH 352
+                            99*************************88888866666666.......889************************************* PP
+
+                Pkinase 260 pwf 262
+                            pw+
+  sp|Q38871|CDPK5_ARATH 353 PWI 355
+                            **7 PP
+
+>> sp|Q69IM9|CDPKM_ORYSJ  Calcium-dependent protein kinase 22 OS=Oryza sativa subsp. japonica OX=39947 GN=CPK22 PE=3 SV=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  242.6   0.0   1.5e-74   1.5e-74       1     262 []     105     368 ..     105     368 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 242.6 bits;  conditional E-value: 1.5e-74
+                Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke..kkvlrEikilkklk.....hpnivrlidvfeekdelylvlEyve 81 
+                            y+ + +lG+G+fg+  ++ +++tg+  A+K+i++++ +  +   ++v+rE++il++++      + +vrl d++e++d ++lv+E++e
+  sp|Q69IM9|CDPKM_ORYSJ 105 YRLGAELGRGEFGVTRRCSDAATGEALACKTIRRKRLRRCRGdaEDVRREVEILRRISalgagADSVVRLRDACEDSDGVHLVMELCE 192
+                            677899****************************99998887889************99988899*********************** PP
+
+                Pkinase  82 ggelfdllsrkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekge...lKitDFGlakelessskltsfvgtseYmAP 166
+                            ggelfd++ ++g+++e+ a k++++i+  ++ +H++gv+HrDlKpeN+L+ +k+e   lK +DFGl+  +++++++t++vg+ +YmAP
+  sp|Q69IM9|CDPKM_ORYSJ 193 GGELFDRIFARGHYTERAAAKLARTIVGVVQLCHENGVMHRDLKPENFLFANKSEdspLKAIDFGLSVFFKPGERFTQVVGSTYYMAP 280
+                            ***************************************************7766799****************************** PP
+
+                Pkinase 167 EvlkskkygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltae 254
+                            Evl +++yg+++DvWs+Gvily ll+g ppf++++++++v+++l+          +++ +++ ++s++akdl++k+l+ dp++Rlta+
+  sp|Q69IM9|CDPKM_ORYSJ 281 EVL-NRSYGPEADVWSAGVILYILLCGVPPFWGDNDEKTVTAILQG-------GINFQREPWPKVSPHAKDLVSKMLDPDPSTRLTAK 360
+                            ***.899*************************99999877777777.......78999****************************** PP
+
+                Pkinase 255 ellqhpwf 262
+                            e+l+hpw+
+  sp|Q69IM9|CDPKM_ORYSJ 361 EVLEHPWL 368
+                            *******6 PP
+
+>> SteCoe_15444  CAMK related kinase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  242.1   0.0   2.2e-74   2.2e-74       4     262 .]      52     308 ..      49     308 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 242.1 bits;  conditional E-value: 2.2e-74
+       Pkinase   4 leklGeGsfgkVykaveketgkivAiKkikkekakkkke..kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsrkgalsee 98 
+                   ++ +G+G+f++V +++++ ++++ A+K+++k+ +++++   ++v++E++ilk+l+hpni +++++fe+++++y+++Ey+egg++fd l+++g ++e+
+  SteCoe_15444  52 KSPIGTGAFAEVWLCTHQLSNELRAVKILHKSGISEEDIriRSVFMEVEILKTLDHPNILKVYEYFEDDQNYYIIMEYCEGGDVFDKLEQNGPFTER 148
+                   568*******************************99888999******************************************************* PP
+
+       Pkinase  99 eakkilkqilegleylHsegvvHrDlKpeNiLidekge.....lKitDFGlakelessskltsfvgtseYmAPEvlkskkygkkvDvWslGvilyel 190
+                    a k ++ +l+gl+ylHs++vvHrD+KpeN+Li++ g      +Ki+DF +a++ e+++  + + gt +YmAPEv  +  y++k+D+Ws+G++ly +
+  SteCoe_15444 149 YAAKAMRFLLSGLNYLHSRRVVHRDIKPENLLITNGGSfedfnIKIIDFNVATRKETKK-IQGVSGTTDYMAPEVF-RGVYDEKCDLWSAGIVLYLM 243
+                   **********************************877688889***********99988.****************.6789**************** PP
+
+       Pkinase 191 ltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqhpwf 262
+                   ++   pf + +++e  ++++         + ++  +   ++s+++kdl+ kll+k+p++R++a e+l hpw+
+  SteCoe_15444 244 MSTCLPFASPNDEEAEKNICIG-------KFSFPNEIFGNVSKSCKDLIIKLLTKNPSSRPSALEALTHPWL 308
+                   ********77777755555555.......677888899999******************************6 PP
+
+>> SteCoe_9191  CAMK related kinase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  241.5   0.0   3.3e-74   3.3e-74       4     262 .]      52     308 ..      50     308 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 241.5 bits;  conditional E-value: 3.3e-74
+      Pkinase   4 leklGeGsfgkVykaveketgkivAiKkikkekakkkke..kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsrkgalseee 99 
+                  le +G+G+f++V +a++++tg++ A+K++kk++ ++++   ++v++E++il++l+hpn+ +++++fe+++++y+v+Ey++gg++fd+l + g+++e+ 
+  SteCoe_9191  52 LEPIGTGAFAEVWLAKHRRTGDTRAVKIFKKSELSDEEVnsRTVFMEVEILRSLDHPNVLKVYEYFENDENFYIVMEYCDGGDVFDRLAKAGTFTERY 149
+                  578*****************************9998877789******************************************************** PP
+
+      Pkinase 100 akkilkqilegleylHsegvvHrDlKpeNiLidekge.....lKitDFGlakelessskltsfvgtseYmAPEvlkskkygkkvDvWslGvilyellt 192
+                  a ++++ +l+gl ylHs++vvHrD+KpeN+L++++g      +Ki+DF +a +  +++  + + gt +YmAPEv  +  y++k+D+Ws+Gv+ly +++
+  SteCoe_9191 150 AARVMRYLLKGLCYLHSKHVVHRDIKPENLLVTDSGSyedfsIKIIDFNIAIRKAKKK-IHGVFGTTDYMAPEVF-RGIYDEKCDLWSCGVVLYLMIS 245
+                  *********************************88888999**********9999887.****************.6689****************** PP
+
+      Pkinase 193 gkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqhpwf 262
+                  g+ pf++ +++   ++       i++ ++++  +   +is+++kdl+++ll k+p++Rl+a+e+l+h+w+
+  SteCoe_9191 246 GSLPFPSPNDEVAERA-------ICEGKYTFPRNLFVNISKDCKDLISRLLIKNPSSRLSASEALNHKWL 308
+                  ******5555543333.......444588999999**********************************6 PP
+
+>> SteCoe_17222  CDPK family kinase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  226.0   0.0   1.8e-69   1.8e-69       3     261 ..      34     289 ..      32     290 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 226.0 bits;  conditional E-value: 1.8e-69
+       Pkinase   3 vleklGeGsfgkVykaveketgkivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsrkgalseee 99 
+                    ++ lG+Gsfg+V+++++k+tg + A K++ k++ ++k+  +v++E+ ++k+l+hp + rl++++e+++++y+++Ey++gg+lf+++s++  +se+ 
+  SteCoe_17222  34 LIKSLGSGSFGNVFLVKDKRTGLERAAKELTKSNLNEKTAPEVYNELMVMKRLDHPGVLRLYEILETSTKIYIITEYLSGGQLFERISKSHKVSEKL 130
+                   5789********************************************************************************************* PP
+
+       Pkinase 100 akkilkqilegleylHsegvvHrDlKpeNiLide...kgelKitDFGlakelesssk..ltsfvgtseYmAPEvlkskkygkkvDvWslGvilyell 191
+                   a k++  ++ +l+ +H++g++HrD+KpeN+L+++   +g+lK++DF l++   +++    + +vg+ +YmAPE   s + ++k+D+Ws+Gvi++ +l
+  SteCoe_17222 131 AAKYIFDLILALSLCHKNGLIHRDIKPENLLFENdapDGHLKMIDFCLSRLGITNEGndQKAQVGSVNYMAPERF-SGECTEKSDIWSVGVIIHVVL 226
+                   ********************************96444666*********97544433359***************.67889**************** PP
+
+       Pkinase 192 tgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqhpw 261
+                    gk pf+++++ e+ ++++++       +l  + + +++ seeak+l++++l+k+p+ R+ta+e+l hpw
+  SteCoe_17222 227 LGKVPFQGKTDAETIRRIIER-------PLITTGKSWDTTSEEAKSLIESMLNKNPTFRPTAQEILMHPW 289
+                   *******77777766666655.......7778999*********************************** PP
+
+>> SteCoe_14067  CDPK family kinase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  238.7   0.0   2.4e-73   2.4e-73       1     262 []      46     304 ..      46     304 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 238.7 bits;  conditional E-value: 2.4e-73
+       Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke..kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsrkgal 95 
+                   y++l+k+G+G+f++V+++ +  t+ + A+Kki+k    ++++    +l+Ei+ilk+l+hpni +++++fe++ ++y+ +Ey++gg+lf  + + + +
+  SteCoe_14067  46 YKELKKIGSGAFAEVVLCEHVPTHTERAVKKIHKAGLCQQQRdpVFMLKEIQILKTLDHPNILKCYEIFEDDLKYYVATEYCSGGDLFGEILKLKKF 142
+                   7899*******************************9888887667789*******************************************99**** PP
+
+       Pkinase  96 seeeakkilkqilegleylHsegvvHrDlKpeNiLid.ekge..lKitDFGlakelessskltsfvgtseYmAPEvlkskkygkkvDvWslGvilye 189
+                   +e++a +i+ q+l++l y+H+++v+HrDlKpeN+L+  e+g+  +K++DFG ++ l+++ kl+   g+ +Y+APEvl s++y +k+D+WslG+i+y 
+  SteCoe_14067 143 TEAKAAEIMFQLLSALTYCHQKNVIHRDLKPENVLLLgEDGNftVKVADFGSSCVLDKERKLHGCFGSAYYVAPEVL-SNNYNEKCDIWSLGIIMYI 238
+                   ************************************9999999**********************************.899**************** PP
+
+       Pkinase 190 lltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqhpwf 262
+                   lltg+pp+s+++++++ ++  ++       +l  +  +  s+s+e  +ll+ ll+  p++R++a+e+++hpw+
+  SteCoe_14067 239 LLTGRPPYSGKDTETILKQVKEN-------PLVITPFKVLSLSKESVNLLQMLLCLSPSSRISAREAVNHPWI 304
+                   *********77777754444444.......323344456688******************************7 PP
+
+>> sp|Q9H1R3|MYLK2_HUMAN  Myosin light chain kinase 2, skeletal/cardiac muscle OS=Homo sapiens OX=9606 GN=MYLK2 PE=1 SV=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  238.4   0.0   2.8e-73   2.8e-73       3     262 .]     287     540 ..     285     540 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 238.4 bits;  conditional E-value: 2.8e-73
+                Pkinase   3 vleklGeGsfgkVykaveketgkivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdlls 90 
+                             +e lG G+fg V +++ek+tg + A K+ikk++ k+k+   vl Ei+++++l+h+n+++l+ ++e+++e++l++Ey+eggelf+++ 
+  sp|Q9H1R3|MYLK2_HUMAN 287 SKEALGGGKFGAVCTCMEKATGLKLAAKVIKKQTPKDKEM--VLLEIEVMNQLNHRNLIQLYAAIETPHEIVLFMEYIEGGELFERIV 372
+                            6899*****************************9998775..******************************************9999 PP
+
+                Pkinase  91 .rkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLid.ekge.lKitDFGlakelessskltsfvgtseYmAPEvlkskkyg 175
+                             ++ +l+e ++  +++qi++g+ ++H+++v+H DlKpeNiL+  ++g+ +Ki+DFGla+++++++kl+   gt+e+++PEv+++ +++
+  sp|Q9H1R3|MYLK2_HUMAN 373 dEDYHLTEVDTMVFVRQICDGILFMHKMRVLHLDLKPENILCVnTTGHlVKIIDFGLARRYNPNEKLKVNFGTPEFLSPEVVNYDQIS 460
+                            45556*************************************9777779*************************************** PP
+
+                Pkinase 176 kkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqhpwf 262
+                             k+D+Ws+Gvi y ll+g +pf +++++e+ ++ l+        ++ ++ ++ + +s+eakd++++l+ kd++ R+ a ++l+hpw+
+  sp|Q9H1R3|MYLK2_HUMAN 461 DKTDMWSMGVITYMLLSGLSPFLGDDDTETLNNVLSG-------NWYFDEETFEAVSDEAKDFVSNLIVKDQRARMNAAQCLAHPWL 540
+                            ***********************99999988888888.......999***************************************6 PP
+
+>> sp|Q9S9V0|CDPKV_ARATH  Calcium-dependent protein kinase 31 OS=Arabidopsis thaliana OX=3702 GN=CPK31 PE=2 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  236.1   0.1   1.5e-72   1.5e-72       3     262 .]      30     290 ..      28     290 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 236.1 bits;  conditional E-value: 1.5e-72
+                Pkinase   3 vleklGeGsfgkVykaveketgkivAiKkikkekakkkke.kkvlrEikilkklk.hpnivrlidvfeekdelylvlEyveggelfdl 88 
+                             +++lG+G+fg   k+vek++gk++A+K+i k++ k++++ ++v rEi+i+k+l+  pniv++++++e+ d++++v+Ey+ ggelf+ 
+  sp|Q9S9V0|CDPKV_ARATH  30 LGDELGQGQFGITRKCVEKTSGKTYACKTILKTNLKSREDeEAVKREIRIMKHLSgEPNIVEFKKAYEDRDSVHIVMEYCGGGELFKK 117
+                            6789******************************9999998999******************************************** PP
+
+                Pkinase  89 ls....rkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekge...lKitDFGlakelessskltsfvgtseYmAPEvl 169
+                            ++    + +++se+ea +i++ i++ ++ +H +gv+ rDlKpeN+L++++++   +K +DFG +  +e+++  ++f g+ +Y+APEvl
+  sp|Q9S9V0|CDPKV_ARATH 118 IEalskDGKSYSEKEAVEIIRPIVNVVKNCHYMGVMLRDLKPENFLLSSTDKnatVKAIDFGCSVFIEEGEVHRKFAGSAYYIAPEVL 205
+                            9999977778**************************************5544589********************************* PP
+
+                Pkinase 170 kskkygkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeell 257
+                             + kygk++D+Ws+G+ily ll+gkppf  e e +    ++++   i  ++ + +++ ++ i+ +ak+l++++l+++pk+R++a e+l
+  sp|Q9S9V0|CDPKV_ARATH 206 -QGKYGKEADIWSAGIILYILLCGKPPFVTEPEAQ----MFSE---IKSAKIDVDSESWKFIDVKAKHLVNRMLNRNPKERISAAEVL 285
+                            .678*************************555555....3333...333478899********************************* PP
+
+                Pkinase 258 qhpwf 262
+                             hpw+
+  sp|Q9S9V0|CDPKV_ARATH 286 GHPWM 290
+                            ****7 PP
+
+>> SteCoe_28008  CDPK family kinase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  236.1   0.9   1.5e-72   1.5e-72       7     262 .]      54     304 ..      49     304 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 236.1 bits;  conditional E-value: 1.5e-72
+       Pkinase   7 lGeGsfgkVykaveketgkivAiKkikkekakkkke..kkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsrkgalseeeak 101
+                   +G Gs g+V ++ + +++++ A+K+i+k+  +k++   k+vl+E++ilk+l+hp i +++++fe++ ++y+v+Ey++gg+lfd l++   ++ee+a 
+  SteCoe_28008  54 VGFGSIGEVWLCEHLRSHETRAVKIISKKLLTKEEIknKAVLTEVDILKTLDHPCILKVFEYFEDQFNFYIVMEYCSGGDLFDELEKINRFNEEQAA 150
+                   8**************************997766655569********************************************************** PP
+
+       Pkinase 102 kilkqilegleylHsegvvHrDlKpeNiLidekge..lKitDFGlakelessskltsfvgtseYmAPEvlkskkygkkvDvWslGvilyelltgkpp 196
+                   ki++qi+++l y+Hs++v+HrD+K eNiLi++k+   +Ki+DF +a   + +   t++ gt++YmAPEv+ + +y++k+D+Ws+Gv+ly l+tg+ p
+  SteCoe_28008 151 KIMQQIFSALFYMHSRNVIHRDIKLENILITDKNAltIKIVDFNIAVMKTAKA-QTKMKGTPNYMAPEVI-KGDYTEKCDLWSCGVLLYVLITGEFP 245
+                   *******************************666689********98777766.9***************.678*********************** PP
+
+       Pkinase 197 fsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqhpwf 262
+                   f ae +++  +       +ilk++++++ + +   s+++kdl+ +ll+k+p kR++ae++l+hpw+
+  SteCoe_28008 246 FDAEFHEQLLA-------MILKAKYRLDGRIWFMASHDLKDLIAELLQKEPLKRISAEQALKHPWI 304
+                   **444444333.......566669999**************************************7 PP
+
+>> SteCoe_10638  CDPK family kinase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  232.6   0.0   1.6e-71   1.6e-71       1     262 []      44     299 ..      44     299 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 232.6 bits;  conditional E-value: 1.6e-71
+       Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsrkgalse 97 
+                   y++++ lG+G+fg+V +++++ t+++ A+K+++k ++     +kv  Ei+i+kkl hp iv+++++fe+++++ylvlE ++ggelf+ + ++++lse
+  SteCoe_10638  44 YKIGKILGTGGFGEVRLVIHRLTNQERAVKIFRKAHDFAGAYSKVKLEIEIMKKLCHPIIVKIYEYFEDEKRVYLVLEKCDGGELFEEVFKRKFLSE 140
+                   78899******************************************************************************************** PP
+
+       Pkinase  98 eeakkilkqilegleylHsegvvHrDlKpeNiLidekge...lKitDFGlakelessskltsfvgtseYmAPEvlkskkygkkvDvWslGvilyell 191
+                   + a  i kq+++ ++ylH++++vHrD+KpeNiL++e+++   +K++DFG a  +++++k+ +++g++ Y+APEv  + +y +k+D Ws+Gvi++ ll
+  SteCoe_10638 141 NIAALISKQLFSVVSYLHDKNIVHRDIKPENILLEEREDfvnIKLIDFGAAISFTPKTKMIEMIGSPFYIAPEVA-NYNYNEKCDEWSCGVIIFILL 236
+                   ***********************************8888899*******************************98.6789***************** PP
+
+       Pkinase 192 tgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqhpwf 262
+                   +g ppf++++++e+  +       i k  ++++ p + +is++akdl++kll+   ++R++a+e+l hpw+
+  SteCoe_10638 237 SGVPPFPGNTNEEIIGR-------IKKGFYSFDQPIWGQISNDAKDLIQKLLCP-IRSRISAKEALLHPWI 299
+                   *******6666553333.......444577999*******************98.578************7 PP
+
+>> SteCoe_30681  CDPK-like predicted pseudokinase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  225.8   0.4     2e-69     2e-69       1     262 []      39     295 ..      39     295 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 225.8 bits;  conditional E-value: 2e-69
+       Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsrkgalse 97 
+                   y++++k+G+ +f+   k+++k+tg+   +K+++ + ++ k  +++++E ++l++ +hpni+++id+++++++ y+v+Ey++ggel +++++ g+lse
+  SteCoe_30681  39 YSIGDKIGNEKFAALHKCKSKQTGQRLLVKIFSVTAIEPKALESFIQEAELLREADHPNIIKVIDIYKDETNAYIVTEYCKGGELLERITELGSLSE 135
+                   77889******************************************************************************************** PP
+
+       Pkinase  98 eeakkilkqilegleylHsegvvHrDlKpeNiLidekge...lKitDFGlakelessskltsfvgtseYmAPEvlkskkygkkvDvWslGvilyell 191
+                   +++ +++kqi++++ ylHs++++HrDl  eN+++ +k++   lK++ FG +k++e++ ++ ++vg++++m+PEv+   ++++k+DvWslGv++y ll
+  SteCoe_30681 136 NKVASYMKQIISAVVYLHSKRIIHRDLRLENVMFLNKDKdscLKLVEFGSCKHFEKNVRVLERVGSPYFMSPEVI-LGNFDSKCDVWSLGVMIYVLL 231
+                   *********************************996666699*********************************.5679***************** PP
+
+       Pkinase 192 tgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqhpwf 262
+                   +g++pf +++e+e++++ l+        el ++ +++++is+eak+l+++ll+++ k+R+ a+++l++pw+
+  SteCoe_30681 232 SGSTPFVGSTETEIMQSVLTS-------ELLFEGKKWKKISNEAKNLIRSLLNRNSKERPNAKHVLNDPWI 295
+                   *******88888866666666.......6778999***********************************7 PP
+
+>> SteCoe_12063  CAMK related kinase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  221.1   0.0   5.6e-68   5.6e-68       1     262 []      41     303 ..      41     303 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 221.1 bits;  conditional E-value: 5.6e-68
+       Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkkekkvlrEikilkklk.....hpnivrlidvfeekdelylvlEyveggelfdllsrk 92 
+                   y+++++lG+Gs g+V+++++k++g + A K++ k+ +++++ + ++ E+++lk++      hp i+r+++++e+++++y++ Ey++gg+lf+ l + 
+  SteCoe_12063  41 YTIIKTLGSGSLGNVFLVKDKRSGLERAAKELIKSMMNQSELDGFFYELSLLKNIVkskqdHPSIMRIYEIIETTTRIYIISEYLSGGQLFEKLVTI 137
+                   7889************************************************997556678************************************ PP
+
+       Pkinase  93 galseeeakkilkqilegleylHsegvvHrDlKpeNiLidekge...lKitDFGlakelesssk.ltsfvgtseYmAPEvlkskkygkkvDvWslGv 185
+                     ++e+ a ++l +i+ +l+y+H+ g++HrD+KpeN+L++++     lKi DFG+++  +s+++ l+  vg   YmAPE  k+ +++ k+D+Ws+Gv
+  SteCoe_12063 138 EKITERLAARYLCHIILALNYCHRLGIIHRDIKPENLLFESDAPdahLKIFDFGISRISNSNESdLQLSVGAVSYMAPERFKG-NVSLKSDIWSAGV 233
+                   ****************************************6433455***********9999888****************55.57999******** PP
+
+       Pkinase 186 ilyelltgkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqhpwf 262
+                   ily++l+g+ pf+a+++  +++++ +          +++   +ssis eak+l+ k+lkkdpk+R+tae++l++pw+
+  SteCoe_12063 234 ILYTMLSGRLPFQADTDAGTAKMISQG-------VIDMHNTVWSSISTEAKNLIIKMLKKDPKDRPTAEDVLSDPWL 303
+                   *************77777755555555.......5678899***********************************6 PP
+
+>> sp|Q96RR4|KKCC2_HUMAN  Calcium/calmodulin-dependent protein kinase kinase 2 OS=Homo sapiens OX=9606 GN=CAMKK2 PE=1 SV
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  218.2   0.0   4.2e-67   4.2e-67       1     262 []     165     446 ..     165     446 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 218.2 bits;  conditional E-value: 4.2e-67
+                Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke........................kkvlrEikilkklkhpnivrli 64 
+                            y+ ++++G+Gs+g+V++a++++++  +A+K+++k+k   +                          ++v++Ei ilkkl+hpn+v+l+
+  sp|Q96RR4|KKCC2_HUMAN 165 YTLKDEIGKGSYGVVKLAYNENDNTYYAMKVLSKKKLIRQAGfprrppprgtrpapggciqprgpiEQVYQEIAILKKLDHPNVVKLV 252
+                            78899******************************999888789999***************************************** PP
+
+                Pkinase  65 dvfee..kdelylvlEyveggelfdllsrkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekgelKitDFGlakeles 150
+                            +v+ +  +d+ly+v+E+v++g ++++ +  + lse++a+++++ +++g+eylH ++++HrD+Kp+N+L+ e+g++Ki+DFG+++e++ 
+  sp|Q96RR4|KKCC2_HUMAN 253 EVLDDpnEDHLYMVFELVNQGPVMEVPT-LKPLSEDQARFYFQDLIKGIEYLHYQKIIHRDIKPSNLLVGEDGHIKIADFGVSNEFKG 339
+                            ****98899***************9996.689******************************************************** PP
+
+                Pkinase 151 ssk.ltsfvgtseYmAPEvl.kskky..gkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilkielkeklpepssisee 234
+                            s   l++ vgt+ +mAPE l +++k+  gk+ DvW++Gv+ly++++g+ pf +e+    ++k+ +         + +++p + +i e+
+  sp|Q96RR4|KKCC2_HUMAN 340 SDAlLSNTVGTPAFMAPESLsETRKIfsGKALDVWAMGVTLYCFVFGQCPFMDERIMCLHSKIKS---------QALEFPDQPDIAED 418
+                            99999***************633444589***********************4444433333333.........4789********** PP
+
+                Pkinase 235 akdllkkllkkdpkkRltaeellqhpwf 262
+                            +kdl++++l+k+p++R+ + e++ hpw+
+  sp|Q96RR4|KKCC2_HUMAN 419 LKDLITRMLDKNPESRIVVPEIKLHPWV 446
+                            ***************************6 PP
+
+>> sp|Q8N5S9|KKCC1_HUMAN  Calcium/calmodulin-dependent protein kinase kinase 1 OS=Homo sapiens OX=9606 GN=CAMKK1 PE=1 SV
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  208.7   0.0   3.3e-64   3.3e-64       1     262 []     128     409 ..     128     409 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 208.7 bits;  conditional E-value: 3.3e-64
+                Pkinase   1 yevleklGeGsfgkVykaveketgkivAiKkikkekakkkke........................kkvlrEikilkklkhpnivrli 64 
+                            y+ ++++G+G++g+V +a+++++++++A+K+++k+k  k+                          ++v++Ei ilkkl+h n+v+li
+  sp|Q8N5S9|KKCC1_HUMAN 128 YKLQSEIGKGAYGVVRLAYNESEDRHYAMKVLSKKKLLKQYGfprrppprgsqaaqggpakqllplERVYQEIAILKKLDHVNVVKLI 215
+                            78899*******************************99988899999***************************************** PP
+
+                Pkinase  65 dvfee..kdelylvlEyveggelfdllsrkgalseeeakkilkqilegleylHsegvvHrDlKpeNiLidekgelKitDFGlakeles 150
+                            +v+ +  +d+lylv++++++g ++++   ++ +see+a+ +l+ ++ gleylH +++vHrD+Kp+N+L+ ++g++Ki+DFG+++++e 
+  sp|Q8N5S9|KKCC1_HUMAN 216 EVLDDpaEDNLYLVFDLLRKGPVMEVPC-DKPFSEEQARLYLRDVILGLEYLHCQKIVHRDIKPSNLLLGDDGHVKIADFGVSNQFEG 302
+                            *****999****************9996.699******************************************************98 PP
+
+                Pkinase 151 ssk.ltsfvgtseYmAPEvl..kskky.gkkvDvWslGvilyelltgkppfsaekekekvekeldqlekilki.elkeklpepssise 233
+                            +   l+s  gt+ +mAPE +  +++++ gk+ DvW+ Gv+ly++++gk pf ++     +  +l++     ki ++   +pe+ +ise
+  sp|Q8N5S9|KKCC1_HUMAN 303 NDAqLSSTAGTPAFMAPEAIsdSGQSFsGKALDVWATGVTLYCFVYGKCPFIDD-----FILALHR-----KIkNEPVVFPEEPEISE 380
+                            8777****************886677779***********************33.....3333443.....332346789******** PP
+
+                Pkinase 234 eakdllkkllkkdpkkRltaeellqhpwf 262
+                            e+kdl+ k+l+k+p++R+++ +++ hpw+
+  sp|Q8N5S9|KKCC1_HUMAN 381 ELKDLILKMLDKNPETRIGVPDIKLHPWV 409
+                            ****************************6 PP
+
+>> SteCoe_33794  CDPK-like predicted pseudokinase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  205.2   2.3   3.9e-63   3.9e-63       2     262 .]      37     291 ..      36     291 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 205.2 bits;  conditional E-value: 3.9e-63
+       Pkinase   2 evleklGeGsfgkVykaveketgkivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsrkgalsee 98 
+                   +++e++ + +f+++y++ +k+tg+   +K+++ ++ + +  +++++E ++l++ +hpni+++id++++k+++y+v+Ey + g+l+d ++++ +lse+
+  SteCoe_33794  37 NIGEEVSSEKFSRIYECQNKQTGQNLLVKIFSITELEYEVLNAFIQEAELLREADHPNIIKVIDIYKDKTNVYIVTEYYK-GSLMDKIKKENTLSEN 132
+                   5566666778**************************99999**************************************9.77************** PP
+
+       Pkinase  99 eakkilkqilegleylHsegvvHrDlKpeNiLidekge...lKitDFGlakelessskltsfvgtseYmAPEvlkskkygkkvDvWslGvilyellt 192
+                   ++ +++kqi+++ +ylHs+++vHrD   eN+++ ++++   lK++ FG +k le++s   +++g+++Ym+PE++    + +k+D+Ws+G+++y ll+
+  SteCoe_33794 133 KVAFYIKQIISAAAYLHSKNIVHRDFNLENFMFLNNDNdssLKLVEFGNCKYLEKKSLILERIGSPYYMSPEII-LGVFNSKSDMWSIGIMIYVLLS 228
+                   ********************************995555589*********************************.55679***************** PP
+
+       Pkinase 193 gkppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqhpwf 262
+                   g+ pf +e+ +e+ + +l+        e  +k +++++iseeak+l+k+llk+++++Rltae +l++pw+
+  SteCoe_33794 229 GSLPFVGETYNEILQDMLTS-------EIFFKGKRWKNISEEAKNLIKSLLKRNCNERLTAELALNDPWI 291
+                   ******66666544444444.......667899************************************7 PP
+
+>> SteCoe_36256  CDPK-like predicted pseudokinase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  194.2   4.3   8.6e-60   8.6e-60       3     262 .]      47     301 ..      45     301 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 194.2 bits;  conditional E-value: 8.6e-60
+       Pkinase   3 vleklGeGsfgkVykaveketgkivAiKkikkekakkkkekkvlrEikilkklkhpnivrlidvfeekdelylvlEyveggelfdllsrkgalseee 99 
+                   +++k+ eG +g Vy+a+ k t+ + AiK i  ++ +++++k++ +E++il +l+h ni++++d++ e++ l +v+E+++gg++ +++ +++++se++
+  SteCoe_36256  47 IGNKIFEGRYGAVYEATCKLTKVKRAIKLIPISNSQSSSTKSICHEVNILMELDHINIIKIVDAYLENKFLNIVTELCTGGNILERIVEETVFSENK 143
+                   5678889***************************************************************************9999999******** PP
+
+       Pkinase 100 akkilkqilegleylHsegvvHrDlKpeNiLidekge...lKitDFGlakelessskltsfvgtseYmAPEvlkskkygkkvDvWslGvilyelltg 193
+                   a +++ qi ++l y+H++g+vHr + +e iL+d+++    lK++ FG +k++++  k+   +    Y APEv+ s ++ +k+D+WslGv+ly +l+g
+  SteCoe_36256 144 AAELTMQINSALIYIHDQGIVHRNISSETILFDNHSPnsiLKLVSFGKSKHYDKAIKTLVKTTHTIYTAPEVI-SGEINTKSDIWSLGVLLYVMLSG 239
+                   *********************************5544599**************996666666678*******.67899****************** PP
+
+       Pkinase 194 kppfsaekekekvekeldqlekilkielkeklpepssiseeakdllkkllkkdpkkRltaeellqhpwf 262
+                    +pf+++ke+e+v + ++q       e++++++ +++ s+ea dl+kk+l+k++++R++a+++++hpw+
+  SteCoe_36256 240 LTPFEERKEDEIVVEVATQ-------EVSFESKIWKKTSPEAVDLIKKMLEKNHENRISAKKIKDHPWI 301
+                   *****99999988777777.......889***************************************7 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (262 nodes)
+Target sequences:                         61  (34767 residues searched)
+Passed MSV filter:                        61  (1); expected 1.2 (0.02)
+Passed bias filter:                       61  (1); expected 1.2 (0.02)
+Passed Vit filter:                        61  (1); expected 0.1 (0.001)
+Passed Fwd filter:                        61  (1); expected 0.0 (1e-05)
+Initial search space (Z):                 61  [actual number of targets]
+Domain search space  (domZ):              61  [number of targets reported over threshold]
+# CPU time: 0.07u 0.00s 00:00:00.07 Elapsed: 00:00:00.07
+# Mc/sec: 127.54
+//
+[ok]

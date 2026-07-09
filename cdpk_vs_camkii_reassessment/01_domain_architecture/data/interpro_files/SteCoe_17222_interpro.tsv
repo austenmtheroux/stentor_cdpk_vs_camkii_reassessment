@@ -1,0 +1,26 @@
+Accession	Name	Short Name	Source Database	Type	Integrated Into	Integrated Signatures	GO Terms	Protein Accession	Protein Length	Matches
+cd00051	EFh	EFh	cdd	domain	IPR002048			a0a1r2bze1	495	433..490
+cd05117	The catalytic domain of CAMK family Serine/Threonine Kinases	STKc_CAMK	cdd	domain				a0a1r2bze1	495	32..289
+G3DSA:1.10.238.10	EF-hand		cathgene3d	homologous_superfamily				a0a1r2bze1	495	300..491
+G3DSA:1.10.510.10	Transferase(Phosphotransferase) domain 1		cathgene3d	homologous_superfamily				a0a1r2bze1	495	23..292
+IPR000719	Protein kinase domain	Prot_kinase_dom	interpro	domain		PS50011,PF00069,SM00220	GO:0005524,GO:0006468	a0a1r2bze1	495	32..290
+IPR002048	EF-hand domain	EF_hand_dom	interpro	domain		PS50222,cd00051,PF13202,PF13499,PF13833,PF13405,PF00036,SM00054	GO:0005509	a0a1r2bze1	495	359..394,429..493
+IPR008271	Serine/threonine-protein kinase, active site	Ser/Thr_kinase_AS	interpro	active_site		PS00108	GO:0004672,GO:0006468	a0a1r2bze1	495	150..162
+IPR011009	Protein kinase-like domain superfamily	Kinase-like_dom_sf	interpro	homologous_superfamily		SSF56112		a0a1r2bze1	495	29..290,292..326
+IPR011992	EF-hand domain pair	EF-hand-dom_pair	interpro	homologous_superfamily		SSF47473		a0a1r2bze1	495	357..491
+IPR017441	Protein kinase, ATP binding site	Protein_kinase_ATP_BS	interpro	binding_site		PS00107	GO:0005524	a0a1r2bze1	495	38..61
+IPR018247	EF-Hand 1, calcium-binding site	EF_Hand_1_Ca_BS	interpro	binding_site		PS00018		a0a1r2bze1	495	372..384,474..486
+IPR050205	Calcium-dependent Serine/Threonine Protein Kinases	CDPK_Ser/Thr_kinases	interpro	family		PTHR24349		a0a1r2bze1	495	27..290
+PF00069	Protein kinase domain	Pkinase	pfam	domain	IPR000719			a0a1r2bze1	495	34..289
+PF13202	EF hand	EF-hand_5	pfam	domain	IPR002048			a0a1r2bze1	495	366..384
+PF13499	EF-hand domain pair	EF-hand_7	pfam	domain	IPR002048			a0a1r2bze1	495	431..490
+PS00018	EF-hand calcium-binding domain	EF_HAND_1	prosite	conserved_site	IPR018247			a0a1r2bze1	495	372..384,474..486
+PS00107	Protein kinases ATP-binding region signature	PROTEIN_KINASE_ATP	prosite	conserved_site	IPR017441			a0a1r2bze1	495	38..61
+PS00108	Serine/Threonine protein kinases active-site signature	PROTEIN_KINASE_ST	prosite	conserved_site	IPR008271			a0a1r2bze1	495	150..162
+PS50011	Protein kinase domain profile	PROTEIN_KINASE_DOM	profile	domain	IPR000719			a0a1r2bze1	495	32..290
+PS50222	EF-hand calcium-binding domain profile	EF_HAND_2	profile	domain	IPR002048			a0a1r2bze1	495	359..394,429..464
+PTHR24349	Calcium-dependent Serine/Threonine Protein Kinases	CDPK_Ser/Thr_kinases	panther	family	IPR050205			a0a1r2bze1	495	27..290
+SM00054	EF-hand, calcium binding motif	EFh	smart	domain	IPR002048			a0a1r2bze1	495	363..391,433..461,465..493
+SM00220	Serine/Threonine protein kinases, catalytic domain	S_TKc	smart	domain	IPR000719			a0a1r2bze1	495	32..290
+SSF47473	EF-hand		ssf	homologous_superfamily	IPR011992			a0a1r2bze1	495	357..491
+SSF56112	Protein kinase-like (PK-like)		ssf	homologous_superfamily	IPR011009			a0a1r2bze1	495	29..290,292..326

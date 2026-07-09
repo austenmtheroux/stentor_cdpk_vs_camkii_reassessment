@@ -1,0 +1,499 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  results/CaMKII_KD.hmm
+# target sequence database:        results/stentor_CaMKII_homolog_candidates_test_KD.fasta
+# per-seq hits tabular output:     results/stentor_CaMKII_homolog_candidates_vs_CaMKII_KD.tbl
+# sequence reporting threshold:    E-value <= 1000
+# domain reporting threshold:      E-value <= 1000
+# Max sensitivity mode:            on [all heuristic filters off]
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       CaMKII_training_KD.mafft  [M=259]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                                              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                                              -----------
+    5.3e-69  222.3   0.0    5.9e-69  222.1   0.0    1.0  1  SteCoe_19366|PF00069_ali_23-280|hmm_1-262|score_262.9  
+    1.8e-66  214.0   0.1      2e-66  213.9   0.1    1.0  1  SteCoe_26883|PF00069_ali_51-309|hmm_1-262|score_268.4  
+    6.1e-61  195.9   0.1    6.7e-61  195.7   0.1    1.0  1  SteCoe_34268|PF00069_ali_30-288|hmm_1-262|score_255.3  
+    7.8e-59  189.0   0.1    8.6e-59  188.8   0.1    1.0  1  SteCoe_10638|PF00069_ali_44-299|hmm_1-262|score_232.6  
+    2.3e-55  177.6   0.0    2.6e-55  177.4   0.0    1.0  1  SteCoe_18109|PF00069_ali_61-310|hmm_7-262|score_248.9  
+    8.6e-53  169.2   0.0    9.6e-53  169.0   0.0    1.0  1  SteCoe_14067|PF00069_ali_46-304|hmm_1-262|score_238.7  
+    7.1e-50  159.6   0.5    7.9e-50  159.5   0.5    1.0  1  SteCoe_28008|PF00069_ali_54-304|hmm_7-262|score_236.1  
+    7.9e-48  152.9   0.0    8.7e-48  152.8   0.0    1.0  1  SteCoe_9191|PF00069_ali_52-308|hmm_4-262|score_241.5   
+    1.4e-45  145.5   0.1    1.6e-45  145.3   0.1    1.0  1  SteCoe_30681|PF00069_ali_39-295|hmm_1-262|score_225.8  
+    1.7e-45  145.3   0.0    1.9e-45  145.1   0.0    1.0  1  SteCoe_15444|PF00069_ali_52-308|hmm_4-262|score_242.1  
+    1.2e-43  139.2   0.0    1.3e-43  139.1   0.0    1.0  1  SteCoe_12063|PF00069_ali_41-303|hmm_1-262|score_221.1  
+    1.1e-42  136.1   0.0    1.2e-42  135.9   0.0    1.0  1  SteCoe_17222|PF00069_ali_34-289|hmm_3-261|score_226.0  
+    2.9e-41  131.4   0.1    3.3e-41  131.2   0.1    1.0  1  SteCoe_33794|PF00069_ali_37-291|hmm_2-262|score_205.2  
+    1.5e-40  129.1   0.5    1.8e-40  128.8   0.5    1.0  1  SteCoe_36256|PF00069_ali_47-301|hmm_3-262|score_194.2  
+
+
+Domain annotation for each sequence (and alignments):
+>> SteCoe_19366|PF00069_ali_23-280|hmm_1-262|score_262.9  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  222.1   0.0   5.9e-69   5.9e-69       1     259 []       1     258 []       1     258 [] 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 222.1 bits;  conditional E-value: 5.9e-69
+                               CaMKII_training_KD.mafft   1 yqlfeelgkgafsvvrrcvkvttgqeyaakiintkkl.sardhqklerearicrll 55 
+                                                            y++ ++lg gaf  vr+  + +tg+  a k i  k+l s  + q +  e  + r l
+  SteCoe_19366|PF00069_ali_23-280|hmm_1-262|score_262.9   1 YRIGNKLGDGAFGSVRKITHRVTGEIRAVKTIHKKNLrSEEERQTFFNEVSVLRAL 56 
+                                                            677889******************************9445678999********** PP
+
+                               CaMKII_training_KD.mafft  56 khpnivrlhdsiseegfhylvfdlvtggelfedivareyyseadashciqqilesv 111
+                                                             hpn+++l++  ++e  +yl+ +l +ggelf+ i++   +sea a+  ++qil  +
+  SteCoe_19366|PF00069_ali_23-280|hmm_1-262|score_262.9  57 DHPNVLKLYEYYQDEKNYYLITELCSGGELFDRIISHGSFSEAMAANYMKQILSVI 112
+                                                            ******************************************************** PP
+
+                               CaMKII_training_KD.mafft 112 lhihqkgvvhrdlkpenlllaskakgaavkladfglaievqgdqqawfgfagtpgy 167
+                                                            ++ h +++vhrdlkpen+ll + +  a +k+ dfg a      ++      gtp y
+  SteCoe_19366|PF00069_ali_23-280|hmm_1-262|score_262.9 113 AYAHDRNIVHRDLKPENFLLDTISEDANLKVIDFGTAQFFTPGRNMTSK-FGTPYY 167
+                                                            *************************************988866665555.59**** PP
+
+                               CaMKII_training_KD.mafft 168 lspevlrkdpygkpvdlwacgvilyillvgyppfwdedqhklyqqikagaydfpsp 223
+                                                            ++pevl+  +y    d+w++gv +y+ll gyppf   ++ ++ ++i  g + fpsp
+  SteCoe_19366|PF00069_ali_23-280|hmm_1-262|score_262.9 168 IAPEVLKC-NYDERCDVWSAGVNMYVLLCGYPPFGGSNDDQILKKIAIGRFSFPSP 222
+                                                            ******76.699******************************************** PP
+
+                               CaMKII_training_KD.mafft 224 ewdtvtpeakdlinkmltinpakritadealkhpwv 259
+                                                            ewd ++ eakdli kml+ + ++r++a eal+hpw+
+  SteCoe_19366|PF00069_ali_23-280|hmm_1-262|score_262.9 223 EWDFISFEAKDLITKMLSFDFTRRMSAREALQHPWL 258
+                                                            ***********************************6 PP
+
+>> SteCoe_26883|PF00069_ali_51-309|hmm_1-262|score_268.4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  213.9   0.1     2e-66     2e-66       3     259 .]       3     259 .]       1     259 [] 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 213.9 bits;  conditional E-value: 2e-66
+                               CaMKII_training_KD.mafft   3 lfeelgkgafsvvrrcvkvttgqeyaakiintkkls..ardhqklerearicrllk 56 
+                                                            + ++lg gaf  vr   ++++g++ a k i+   ++   ++h ++  e  i  +  
+  SteCoe_26883|PF00069_ali_51-309|hmm_1-262|score_268.4   3 IGNKLGSGAFGFVRVGTHKASGHKRAIKTIQKESITkdMKEHSNFFNEVDILIKAD 58 
+                                                            5678**************************98877522689999************ PP
+
+                               CaMKII_training_KD.mafft  57 hpnivrlhdsiseegfhylvfdlvtggelfedivareyyseadashciqqilesvl 112
+                                                            hpniv+l++  +++ +++lv ++v+ggelf+ i+   + se  a+h ++qil +v+
+  SteCoe_26883|PF00069_ali_51-309|hmm_1-262|score_268.4  59 HPNIVKLYEWYEDDKYYHLVTEFVSGGELFDFIIKSRMLSEPIAAHFMKQILSAVA 114
+                                                            ******************************************************** PP
+
+                               CaMKII_training_KD.mafft 113 hihqkgvvhrdlkpenlllaskakgaavkladfglaievqgdqqawfgfagtpgyl 168
+                                                            ++h++++vhrdlkpenlll   +  + +k+ dfg +   + +        gt  y+
+  SteCoe_26883|PF00069_ali_51-309|hmm_1-262|score_268.4 115 YCHSNNIVHRDLKPENLLLEKDSADSLLKIIDFGTSKIYD-NGGKMTQKYGTAYYI 169
+                                                            **********************************875444.333444556999*** PP
+
+                               CaMKII_training_KD.mafft 169 spevlrkdpygkpvdlwacgvilyillvgyppfwdedqhklyqqikagaydfpspe 224
+                                                            +pevlr+d y+   d+w+cgvilyill g ppf+   + ++ ++++ g y +   e
+  SteCoe_26883|PF00069_ali_51-309|hmm_1-262|score_268.4 170 APEVLRRD-YTEKCDIWSCGVILYILLSGKPPFYGRTDREILERVQRGQYSMEDNE 224
+                                                            ******98.88889****************************************** PP
+
+                               CaMKII_training_KD.mafft 225 wdtvtpeakdlinkmltinpakritadealkhpwv 259
+                                                            w  ++ +ak+li+kml +np+ ri+a++alk  w+
+  SteCoe_26883|PF00069_ali_51-309|hmm_1-262|score_268.4 225 WGRISIQAKNLIKKMLQMNPSSRISAQDALKDEWI 259
+                                                            **********************************8 PP
+
+>> SteCoe_34268|PF00069_ali_30-288|hmm_1-262|score_255.3  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  195.7   0.1   6.7e-61   6.7e-61       1     258 [.       1     258 [.       1     259 [] 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 195.7 bits;  conditional E-value: 6.7e-61
+                               CaMKII_training_KD.mafft   1 yqlfeelgkgafsvvrrcvkv.ttgqeyaakiintkklsardhqklerearicrll 55 
+                                                            y+l +++g gaf  v  + ++  +  ++a k in k +   + + l re  i + +
+  SteCoe_34268|PF00069_ali_30-288|hmm_1-262|score_255.3   1 YKLTKKIGGGAFGTVWLAQRKdNSKCKFAIKKINKKEVQETEINLLRREIDILKEV 56 
+                                                            8999*********99988766156679***************************** PP
+
+                               CaMKII_training_KD.mafft  56 khpnivrlhdsiseegfhylvfdlvtggelfedivareyyseadashciqqilesv 111
+                                                             hpni++++++ ++ +f y+v++  +ggelf  i ++ y  e +a   ++++l +v
+  SteCoe_34268|PF00069_ali_30-288|hmm_1-262|score_255.3  57 DHPNIIKFYETYEDSNFIYIVMEYCSGGELFTKITSQGYLHENEAKLYMNKMLMAV 112
+                                                            ******************************************************** PP
+
+                               CaMKII_training_KD.mafft 112 lhihqkgvvhrdlkpenlllaskakgaavkladfglaievqgdqqawfgfagtpgy 167
+                                                            +h+h+  +vhrdlk en+++ sk+    +kl dfgl+ +   + +  +   gt  y
+  SteCoe_34268|PF00069_ali_30-288|hmm_1-262|score_255.3 113 SHLHSLKIVHRDLKTENFIFDSKCASKELKLVDFGLSNKFSRNFEQMHSQVGTIYY 168
+                                                            ******************************************************** PP
+
+                               CaMKII_training_KD.mafft 168 lspevlrkdpygkpvdlwacgvilyillvgyppfwdedqhklyqqikagaydfpsp 223
+                                                            ++pevl+  +y++  dlw+ gv+++ +l g  pf+de   ++y+++++g y f s 
+  SteCoe_34268|PF00069_ali_30-288|hmm_1-262|score_255.3 169 VAPEVLK-GNYNNKCDLWSLGVLMFTMLSGDLPFYDESLPEVYRKLNSGLYSFSSK 223
+                                                            ******6.579999****************************************** PP
+
+                               CaMKII_training_KD.mafft 224 ewdtvtpeakdlinkmltinpakritadealkhpw 258
+                                                            +w++v+  akdli ++l +np+ r +a +al h w
+  SteCoe_34268|PF00069_ali_30-288|hmm_1-262|score_255.3 224 NWESVSGTAKDLISNLLVVNPEDRFSAIDALSHEW 258
+                                                            **********************************9 PP
+
+>> SteCoe_10638|PF00069_ali_44-299|hmm_1-262|score_232.6  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  188.8   0.1   8.6e-59   8.6e-59       1     259 []       1     256 []       1     256 [] 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 188.8 bits;  conditional E-value: 8.6e-59
+                               CaMKII_training_KD.mafft   1 yqlfeelgkgafsvvrrcvkvttgqeyaakiintkklsardhqklerearicrllk 56 
+                                                            y++ + lg g f  vr +++ +t+qe a ki    +  a  + k++ e  i ++l 
+  SteCoe_10638|PF00069_ali_44-299|hmm_1-262|score_232.6   1 YKIGKILGTGGFGEVRLVIHRLTNQERAVKIFRKAHDFAGAYSKVKLEIEIMKKLC 56 
+                                                            5666779************************************************* PP
+
+                               CaMKII_training_KD.mafft  57 hpnivrlhdsiseegfhylvfdlvtggelfedivareyyseadashciqqilesvl 112
+                                                            hp iv++++  ++e   ylv++   ggelfe++  r++ se  a+   +q++  v+
+  SteCoe_10638|PF00069_ali_44-299|hmm_1-262|score_232.6  57 HPIIVKIYEYFEDEKRVYLVLEKCDGGELFEEVFKRKFLSENIAALISKQLFSVVS 112
+                                                            ******************************************************** PP
+
+                               CaMKII_training_KD.mafft 113 hihqkgvvhrdlkpenlllaskakgaavkladfglaievqgdqqawfgfagtpgyl 168
+                                                            ++h k++vhrd+kpen+ll  +     +kl dfg ai    +      + g+p y+
+  SteCoe_10638|PF00069_ali_44-299|hmm_1-262|score_232.6 113 YLHDKNIVHRDIKPENILLEEREDFVNIKLIDFGAAISFTPK-TKMIEMIGSPFYI 167
+                                                            **************************************9965.567899******* PP
+
+                               CaMKII_training_KD.mafft 169 spevlrkdpygkpvdlwacgvilyillvgyppfwdedqhklyqqikagaydfpspe 224
+                                                            +pev +  +y+   d w+cgvi++ill g ppf  + + ++  +ik g y f  p 
+  SteCoe_10638|PF00069_ali_44-299|hmm_1-262|score_232.6 168 APEVANY-NYNEKCDEWSCGVIIFILLSGVPPFPGNTNEEIIGRIKKGFYSFDQPI 222
+                                                            ****875.699999****************************************** PP
+
+                               CaMKII_training_KD.mafft 225 wdtvtpeakdlinkmltinpakritadealkhpwv 259
+                                                            w  ++ +akdli+k+l      ri+a+eal hpw+
+  SteCoe_10638|PF00069_ali_44-299|hmm_1-262|score_232.6 223 WGQISNDAKDLIQKLLC-PIRSRISAKEALLHPWI 256
+                                                            **************996.4567************8 PP
+
+>> SteCoe_18109|PF00069_ali_61-310|hmm_7-262|score_248.9  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  177.4   0.0   2.6e-55   2.6e-55       7     259 .]       1     250 []       1     250 [] 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 177.4 bits;  conditional E-value: 2.6e-55
+                               CaMKII_training_KD.mafft   7 lgkgafsvvrrcvkvttgqeyaakiintkkl..sardhqklerearicrllkhpni 60 
+                                                            lg ga   vr c ++++  +   kii    l  s    + l  e  i + l hpn+
+  SteCoe_18109|PF00069_ali_61-310|hmm_7-262|score_248.9   1 LGSGARGEVRICTHIASKDKRVVKIISKSTLpeSLLGSESLSAEVNIMKELDHPNL 56 
+                                                            7999**********************9888844677899***************** PP
+
+                               CaMKII_training_KD.mafft  61 vrlhdsiseegfhylvfdlvtggelfedivareyyseadashciqqilesvlhihq 116
+                                                             r+++  ++    y+v+++  gg+lf+ iv    + e+ a+  + qi+  ++++h+
+  SteCoe_18109|PF00069_ali_61-310|hmm_7-262|score_248.9  57 PRIYEFFEDTEKFYIVLEFCKGGDLFDKIVELHLFEESKAAEIMSQIFSGLNYLHS 112
+                                                            ******************************************************** PP
+
+                               CaMKII_training_KD.mafft 117 kgvvhrdlkpenlllaskakgaavkladfglaievqgdqqawfgfagtpgylspev 172
+                                                            +g+vhrd+kpen+ll  k     +k+ df  a      ++ ++ + gtp y++pev
+  SteCoe_18109|PF00069_ali_61-310|hmm_7-262|score_248.9 113 RGIVHRDIKPENVLLDKK-DSLKLKIIDFDTATFFG--REKFHEMYGTPMYMAPEV 165
+                                                            *************99755.67899******998776..67799************* PP
+
+                               CaMKII_training_KD.mafft 173 lrkdpygkpvdlwacgvilyillvgyppfwdedqhklyqqikagaydfpspewdtv 228
+                                                            ++   y+   d+w+cg+i+yill g ppf   d   +++ +k     +    w+ +
+  SteCoe_18109|PF00069_ali_61-310|hmm_7-262|score_248.9 166 VK-GKYNEKCDIWSCGIIMYILLCGGPPFDGTD-DAIFKILKNVNIKLEGERWNKI 219
+                                                            95.689999*******************96555.6799****************** PP
+
+                               CaMKII_training_KD.mafft 229 tpeakdlinkmltinpakritadealkhpwv 259
+                                                            + eakdl+ k+l  np+krita+ea kh w+
+  SteCoe_18109|PF00069_ali_61-310|hmm_7-262|score_248.9 220 SIEAKDLLSKLLVANPEKRITASEACKHKWI 250
+                                                            ******************************8 PP
+
+>> SteCoe_14067|PF00069_ali_46-304|hmm_1-262|score_238.7  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  169.0   0.0   9.6e-53   9.6e-53       2     259 .]       2     259 .]       1     259 [] 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 169.0 bits;  conditional E-value: 9.6e-53
+                               CaMKII_training_KD.mafft   2 qlfeelgkgafsvvrrcvkvttgqeyaakiintkkls..ardhqklerearicrll 55 
+                                                            +  +++g gaf+ v  c +v t  e a k i    l    rd   + +e +i + l
+  SteCoe_14067|PF00069_ali_46-304|hmm_1-262|score_238.7   2 KELKKIGSGAFAEVVLCEHVPTHTERAVKKIHKAGLCqqQRDPVFMLKEIQILKTL 57 
+                                                            556789*************************9999862258888999********* PP
+
+                               CaMKII_training_KD.mafft  56 khpnivrlhdsiseegfhylvfdlvtggelfedivareyyseadashciqqilesv 111
+                                                             hpni++ ++  +++  +y+  +  +gg+lf +i+  + ++ea a+  + q+l ++
+  SteCoe_14067|PF00069_ali_46-304|hmm_1-262|score_238.7  58 DHPNILKCYEIFEDDLKYYVATEYCSGGDLFGEILKLKKFTEAKAAEIMFQLLSAL 113
+                                                            **********999999999999********************************** PP
+
+                               CaMKII_training_KD.mafft 112 lhihqkgvvhrdlkpenlllaskakgaavkladfglaievqgdqqawfgfagtpgy 167
+                                                            +++hqk+v+hrdlkpen+ll       +vk+adfg +  ++  ++  +g  g+  y
+  SteCoe_14067|PF00069_ali_46-304|hmm_1-262|score_238.7 114 TYCHQKNVIHRDLKPENVLLLGEDGNFTVKVADFGSSCVLDK-ERKLHGCFGSAYY 168
+                                                            ***********************************9998885.56689999***** PP
+
+                               CaMKII_training_KD.mafft 168 lspevlrkdpygkpvdlwacgvilyillvgyppfwdedqhklyqqikagaydfpsp 223
+                                                            ++pevl  ++y+   d+w+ g+i+yill g pp+  +d   + +q+k         
+  SteCoe_14067|PF00069_ali_46-304|hmm_1-262|score_238.7 169 VAPEVLS-NNYNEKCDIWSLGIIMYILLTGRPPYSGKDTETILKQVKENPLVITPF 223
+                                                            ******7.569999*************************************99999 PP
+
+                               CaMKII_training_KD.mafft 224 ewdtvtpeakdlinkmltinpakritadealkhpwv 259
+                                                            +  +++ e+ +l++ +l + p+ ri+a ea++hpw+
+  SteCoe_14067|PF00069_ali_46-304|hmm_1-262|score_238.7 224 KVLSLSKESVNLLQMLLCLSPSSRISAREAVNHPWI 259
+                                                            999********************************8 PP
+
+>> SteCoe_28008|PF00069_ali_54-304|hmm_7-262|score_236.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  159.5   0.5   7.9e-50   7.9e-50       8     259 .]       2     251 .]       1     251 [] 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 159.5 bits;  conditional E-value: 7.9e-50
+                               CaMKII_training_KD.mafft   8 gkgafsvvrrcvkvttgqeyaakiintkklsardhqk..lerearicrllkhpniv 61 
+                                                            g g++  v  c ++ + +  a kii  k l+  + ++  +  e  i + l hp i+
+  SteCoe_28008|PF00069_ali_54-304|hmm_7-262|score_236.1   2 GFGSIGEVWLCEHLRSHETRAVKIISKKLLTKEEIKNkaVLTEVDILKTLDHPCIL 57 
+                                                            66778888999999999999*****988777766443126789************* PP
+
+                               CaMKII_training_KD.mafft  62 rlhdsiseegfhylvfdlvtggelfedivareyyseadashciqqilesvlhihqk 117
+                                                            ++ +  +++   y+v++  +gg+lf+++   + + e +a++ +qqi+ ++ ++h++
+  SteCoe_28008|PF00069_ali_54-304|hmm_7-262|score_236.1  58 KVFEYFEDQFNFYIVMEYCSGGDLFDELEKINRFNEEQAAKIMQQIFSALFYMHSR 113
+                                                            ********999********************************************* PP
+
+                               CaMKII_training_KD.mafft 118 gvvhrdlkpenlllaskakgaavkladfglaievqgdqqawfgfagtpgylspevl 173
+                                                            +v+hrd+k en+l++ k    ++k+ df +a+      +a   + gtp y++pev+
+  SteCoe_28008|PF00069_ali_54-304|hmm_7-262|score_236.1 114 NVIHRDIKLENILITDKN-ALTIKIVDFNIAVMKT--AKAQTKMKGTPNYMAPEVI 166
+                                                            *************99885.678******9997665..66777899**********9 PP
+
+                               CaMKII_training_KD.mafft 174 rkdpygkpvdlwacgvilyillvgyppfwdedqhklyqqikagaydfpspewdtvt 229
+                                                            + d y+   dlw+cgv+ly+l+ g  pf  e + +l + i    y +    w   +
+  SteCoe_28008|PF00069_ali_54-304|hmm_7-262|score_236.1 167 KGD-YTEKCDLWSCGVLLYVLITGEFPFDAEFHEQLLAMILKAKYRLDGRIWFMAS 221
+                                                            766.89999*********************************************** PP
+
+                               CaMKII_training_KD.mafft 230 peakdlinkmltinpakritadealkhpwv 259
+                                                             + kdli ++l  +p kri+a++alkhpw+
+  SteCoe_28008|PF00069_ali_54-304|hmm_7-262|score_236.1 222 HDLKDLIAELLQKEPLKRISAEQALKHPWI 251
+                                                            *****************************8 PP
+
+>> SteCoe_9191|PF00069_ali_52-308|hmm_4-262|score_241.5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  152.8   0.0   8.7e-48   8.7e-48       5     259 .]       2     257 .]       1     257 [] 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 152.8 bits;  conditional E-value: 8.7e-48
+                              CaMKII_training_KD.mafft   5 eelgkgafsvvrrcvkvttgqeyaakiintkklsardh..qklerearicrllkhpn 59 
+                                                           e +g gaf+ v  + +  tg   a ki +   ls  +   + +  e  i r l hpn
+  SteCoe_9191|PF00069_ali_52-308|hmm_4-262|score_241.5   2 EPIGTGAFAEVWLAKHRRTGDTRAVKIFKKSELSDEEVnsRTVFMEVEILRSLDHPN 58 
+                                                           779*******************************98751156789************ PP
+
+                              CaMKII_training_KD.mafft  60 ivrlhdsiseegfhylvfdlvtggelfedivareyyseadashciqqilesvlhihq 116
+                                                           ++++++  +++   y+v++   gg++f+ +     ++e  a+ +++ +l+ + ++h+
+  SteCoe_9191|PF00069_ali_52-308|hmm_4-262|score_241.5  59 VLKVYEYFENDENFYIVMEYCDGGDVFDRLAKAGTFTERYAARVMRYLLKGLCYLHS 115
+                                                           ********************************************************* PP
+
+                              CaMKII_training_KD.mafft 117 kgvvhrdlkpenlllask..akgaavkladfglaievqgdqqawfgfagtpgylspe 171
+                                                           k vvhrd+kpenll++        ++k+ df +ai     ++  +g+ gt  y++pe
+  SteCoe_9191|PF00069_ali_52-308|hmm_4-262|score_241.5 116 KHVVHRDIKPENLLVTDSgsYEDFSIKIIDFNIAIRKA--KKKIHGVFGTTDYMAPE 170
+                                                           **************97541157789*******999765..7889************* PP
+
+                              CaMKII_training_KD.mafft 172 vlrkdpygkpvdlwacgvilyillvgyppfwdedqhklyqqikagaydfpspewdtv 228
+                                                           v+r   y    dlw+cgv+ly+++ g  pf   ++    + i  g y fp   +  +
+  SteCoe_9191|PF00069_ali_52-308|hmm_4-262|score_241.5 171 VFR-GIYDEKCDLWSCGVVLYLMISGSLPFPSPNDEVAERAICEGKYTFPRNLFVNI 226
+                                                           *98.589*************************999999******************* PP
+
+                              CaMKII_training_KD.mafft 229 tpeakdlinkmltinpakritadealkhpwv 259
+                                                           + ++kdli ++l  np+ r++a+eal+h w+
+  SteCoe_9191|PF00069_ali_52-308|hmm_4-262|score_241.5 227 SKDCKDLISRLLIKNPSSRLSASEALNHKWL 257
+                                                           ******************************6 PP
+
+>> SteCoe_30681|PF00069_ali_39-295|hmm_1-262|score_225.8  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  145.3   0.1   1.6e-45   1.6e-45       1     259 []       1     257 []       1     257 [] 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 145.3 bits;  conditional E-value: 1.6e-45
+                               CaMKII_training_KD.mafft   1 yqlfeelgkgafsvvrrcvkvttgqeyaakiintkklsardhqklerearicrllk 56 
+                                                            y + +++g+  f+ + +c  + tgq    ki     +  +  + + +ea + r   
+  SteCoe_30681|PF00069_ali_39-295|hmm_1-262|score_225.8   1 YSIGDKIGNEKFAALHKCKSKQTGQRLLVKIFSVTAIEPKALESFIQEAELLREAD 56 
+                                                            677889************************************************** PP
+
+                               CaMKII_training_KD.mafft  57 hpnivrlhdsiseegfhylvfdlvtggelfedivareyyseadashciqqilesvl 112
+                                                            hpni+++ d  ++e+  y+v +   ggel+e i      se   +  ++qi+ +v 
+  SteCoe_30681|PF00069_ali_39-295|hmm_1-262|score_225.8  57 HPNIIKVIDIYKDETNAYIVTEYCKGGELLERITELGSLSENKVASYMKQIISAVV 112
+                                                            ******************************************************** PP
+
+                               CaMKII_training_KD.mafft 113 hihqkgvvhrdlkpenlllaskakgaavkladfglaievqgdqqawfgfagtpgyl 168
+                                                            ++h+k ++hrdl+ en+++  k k +++kl +fg +   + + +      g+p ++
+  SteCoe_30681|PF00069_ali_39-295|hmm_1-262|score_225.8 113 YLHSKRIIHRDLRLENVMFLNKDKDSCLKLVEFGSCKHFEKNVRV-LERVGSPYFM 167
+                                                            ************************************999976665.6789****** PP
+
+                               CaMKII_training_KD.mafft 169 spevlrkdpygkpvdlwacgvilyillvgyppfwdedqhklyqqikagaydfpspe 224
+                                                            spev+  + +    d+w+ gv++y+ll g  pf    + ++ q + +    f   +
+  SteCoe_30681|PF00069_ali_39-295|hmm_1-262|score_225.8 168 SPEVILGN-FDSKCDVWSLGVMIYVLLSGSTPFVGSTETEIMQSVLTSELLFEGKK 222
+                                                            ****9876.55568****************************************** PP
+
+                               CaMKII_training_KD.mafft 225 wdtvtpeakdlinkmltinpakritadealkhpwv 259
+                                                            w  ++ eak+li ++l  n + r  a++ l+ pw+
+  SteCoe_30681|PF00069_ali_39-295|hmm_1-262|score_225.8 223 WKKISNEAKNLIRSLLNRNSKERPNAKHVLNDPWI 257
+                                                            **********************************8 PP
+
+>> SteCoe_15444|PF00069_ali_52-308|hmm_4-262|score_242.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  145.1   0.0   1.9e-45   1.9e-45       7     259 .]       4     257 .]       1     257 [] 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 145.1 bits;  conditional E-value: 1.9e-45
+                               CaMKII_training_KD.mafft   7 lgkgafsvvrrcvkvttgqeyaakiintkklsardhq..klerearicrllkhpni 60 
+                                                            +g gaf+ v  c ++++++  a ki+    +s  d +   +  e  i + l hpni
+  SteCoe_15444|PF00069_ali_52-308|hmm_4-262|score_242.1   4 IGTGAFAEVWLCTHQLSNELRAVKILHKSGISEEDIRirSVFMEVEILKTLDHPNI 59 
+                                                            89********************************975226789************* PP
+
+                               CaMKII_training_KD.mafft  61 vrlhdsiseegfhylvfdlvtggelfedivareyyseadashciqqilesvlhihq 116
+                                                            +++++  +++  +y++++   gg++f+ +     ++e  a+++++ +l  ++++h+
+  SteCoe_15444|PF00069_ali_52-308|hmm_4-262|score_242.1  60 LKVYEYFEDDQNYYIIMEYCEGGDVFDKLEQNGPFTERYAAKAMRFLLSGLNYLHS 115
+                                                            ******************************************************** PP
+
+                               CaMKII_training_KD.mafft 117 kgvvhrdlkpenlllas..kakgaavkladfglaievqgdqqawfgfagtpgylsp 170
+                                                            + vvhrd+kpenll++         +k+ df +a     + +   g++gt  y++p
+  SteCoe_15444|PF00069_ali_52-308|hmm_4-262|score_242.1 116 RRVVHRDIKPENLLITNggSFEDFNIKIIDFNVATRK--ETKKIQGVSGTTDYMAP 169
+                                                            **************987224678899*****999765..578899*********** PP
+
+                               CaMKII_training_KD.mafft 171 evlrkdpygkpvdlwacgvilyillvgyppfwdedqhklyqqikagaydfpspewd 226
+                                                            ev+r   y    dlw++g++ly+++    pf   ++ +  ++i  g + fp   + 
+  SteCoe_15444|PF00069_ali_52-308|hmm_4-262|score_242.1 170 EVFR-GVYDEKCDLWSAGIVLYLMMSTCLPFASPNDEEAEKNICIGKFSFPNEIFG 224
+                                                            **98.589************************************************ PP
+
+                               CaMKII_training_KD.mafft 227 tvtpeakdlinkmltinpakritadealkhpwv 259
+                                                             v+  +kdli k+lt np+ r +a eal hpw+
+  SteCoe_15444|PF00069_ali_52-308|hmm_4-262|score_242.1 225 NVSKSCKDLIIKLLTKNPSSRPSALEALTHPWL 257
+                                                            ********************************6 PP
+
+>> SteCoe_12063|PF00069_ali_41-303|hmm_1-262|score_221.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  139.1   0.0   1.3e-43   1.3e-43       1     259 []       1     263 []       1     263 [] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 139.1 bits;  conditional E-value: 1.3e-43
+                               CaMKII_training_KD.mafft   1 yqlfeelgkgafsvvrrcvkvttgqeyaakiintkklsard....hqklerearic 52 
+                                                            y +++ lg g++  v  +  + +g e aak +    +   +    +  l     i+
+  SteCoe_12063|PF00069_ali_41-303|hmm_1-262|score_221.1   1 YTIIKTLGSGSLGNVFLVKDKRSGLERAAKELIKSMMNQSEldgfFYELSLLKNIV 56 
+                                                            67788899999999998888999999999854433333333002234444445555 PP
+
+                               CaMKII_training_KD.mafft  53 r.llkhpnivrlhdsiseegfhylvfdlvtggelfedivareyyseadashciqqi 107
+                                                            + +  hp i+r+++ i+  +  y++ + ++gg+lfe +v+ e  +e  a+  + +i
+  SteCoe_12063|PF00069_ali_41-303|hmm_1-262|score_221.1  57 KsKQDHPSIMRIYEIIETTTRIYIISEYLSGGQLFEKLVTIEKITERLAARYLCHI 112
+                                                            42678*************************************************** PP
+
+                               CaMKII_training_KD.mafft 108 lesvlhihqkgvvhrdlkpenlllaskakgaavkladfglaievqgdqqawfgfag 163
+                                                            + +++++h+ g++hrd+kpenll+ s a  a +k+ dfg++   + ++       g
+  SteCoe_12063|PF00069_ali_41-303|hmm_1-262|score_221.1 113 ILALNYCHRLGIIHRDIKPENLLFESDAPDAHLKIFDFGISRISNSNESDLQLSVG 168
+                                                            ****************************************999998988899999* PP
+
+                               CaMKII_training_KD.mafft 164 tpgylspevlrkdpygkpvdlwacgvilyillvgyppfwdedqhklyqqikagayd 219
+                                                            +  y++pe ++ +  +   d+w++gvily +l g  pf  + +    + i  g  d
+  SteCoe_12063|PF00069_ali_41-303|hmm_1-262|score_221.1 169 AVSYMAPERFKGNV-SLKSDIWSAGVILYTMLSGRLPFQADTDAGTAKMISQGVID 223
+                                                            ********998776.5567********************99999999********* PP
+
+                               CaMKII_training_KD.mafft 220 fpspewdtvtpeakdlinkmltinpakritadealkhpwv 259
+                                                            +    w +++ eak+li kml  +p+ r ta++ l  pw+
+  SteCoe_12063|PF00069_ali_41-303|hmm_1-262|score_221.1 224 MHNTVWSSISTEAKNLIIKMLKKDPKDRPTAEDVLSDPWL 263
+                                                            ***************************************6 PP
+
+>> SteCoe_17222|PF00069_ali_34-289|hmm_3-261|score_226.0  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  135.9   0.0   1.2e-42   1.2e-42       4     258 ..       2     256 .]       1     256 [] 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 135.9 bits;  conditional E-value: 1.2e-42
+                               CaMKII_training_KD.mafft   4 feelgkgafsvvrrcvkvttgqeyaakiintkklsardhqklerearicrllkhpn 59 
+                                                            ++ lg g+f  v  +  + tg e aak +   +l  +    +  e  + + l hp 
+  SteCoe_17222|PF00069_ali_34-289|hmm_3-261|score_226.0   2 IKSLGSGSFGNVFLVKDKRTGLERAAKELTKSNLNEKTAPEVYNELMVMKRLDHPG 57 
+                                                            5789**************************************************** PP
+
+                               CaMKII_training_KD.mafft  60 ivrlhdsiseegfhylvfdlvtggelfedivareyyseadashciqqilesvlhih 115
+                                                            ++rl++ ++  +  y++ + ++gg+lfe i      se  a++ i +++ +++ +h
+  SteCoe_17222|PF00069_ali_34-289|hmm_3-261|score_226.0  58 VLRLYEILETSTKIYIITEYLSGGQLFERISKSHKVSEKLAAKYIFDLILALSLCH 113
+                                                            ******************************************************** PP
+
+                               CaMKII_training_KD.mafft 116 qkgvvhrdlkpenlllaskakgaavkladfgla.ievqgdqqawfgfagtpgylsp 170
+                                                            ++g++hrd+kpenll+   a    +k+ df l+ + +  + +      g+  y++p
+  SteCoe_17222|PF00069_ali_34-289|hmm_3-261|score_226.0 114 KNGLIHRDIKPENLLFENDAPDGHLKMIDFCLSrLGITNEGNDQKAQVGSVNYMAP 169
+                                                            ******************************98644455555555677899****** PP
+
+                               CaMKII_training_KD.mafft 171 evlrkdpygkpvdlwacgvilyillvgyppfwdedqhklyqqikagaydfpspewd 226
+                                                            e +  +   k  d+w++gvi++++l+g  pf  + + +  ++i           wd
+  SteCoe_17222|PF00069_ali_34-289|hmm_3-261|score_226.0 170 ERFSGECTEK-SDIWSVGVIIHVVLLGKVPFQGKTDAETIRRIIERPLITTGKSWD 224
+                                                            ***9998777.6********************99999999999999999999**** PP
+
+                               CaMKII_training_KD.mafft 227 tvtpeakdlinkmltinpakritadealkhpw 258
+                                                            t + eak+li++ml  np+ r ta+e l hpw
+  SteCoe_17222|PF00069_ali_34-289|hmm_3-261|score_226.0 225 TTSEEAKSLIESMLNKNPTFRPTAQEILMHPW 256
+                                                            ******************************** PP
+
+>> SteCoe_33794|PF00069_ali_37-291|hmm_2-262|score_205.2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  131.2   0.1   3.3e-41   3.3e-41       4     259 .]       3     255 .]       1     255 [] 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 131.2 bits;  conditional E-value: 3.3e-41
+                               CaMKII_training_KD.mafft   4 feelgkgafsvvrrcvkvttgqeyaakiintkklsardhqklerearicrllkhpn 59 
+                                                             ee+    fs +  c ++ tgq+   ki     l     + + +ea + r   hpn
+  SteCoe_33794|PF00069_ali_37-291|hmm_2-262|score_205.2   3 GEEVSSEKFSRIYECQNKQTGQNLLVKIFSITELEYEVLNAFIQEAELLREADHPN 58 
+                                                            5899999************************************************* PP
+
+                               CaMKII_training_KD.mafft  60 ivrlhdsiseegfhylvfdlvtggelfedivareyyseadashciqqilesvlhih 115
+                                                            i+++ d  ++++  y+v +    g l++ i   +  se   +  i+qi+ + +++h
+  SteCoe_33794|PF00069_ali_37-291|hmm_2-262|score_205.2  59 IIKVIDIYKDKTNVYIVTEYYK-GSLMDKIKKENTLSENKVAFYIKQIISAAAYLH 113
+                                                            *****************99876.6799***************************** PP
+
+                               CaMKII_training_KD.mafft 116 qkgvvhrdlkpenlllaskakgaavkladfglaievqgdqqawfgfagtpgylspe 171
+                                                            +k++vhrd++ en+++  + + +++kl +fg +  ++ ++       g+p y+spe
+  SteCoe_33794|PF00069_ali_37-291|hmm_2-262|score_205.2 114 SKNIVHRDFNLENFMFLNNDNDSSLKLVEFGNCKYLE-KKSLILERIGSPYYMSPE 168
+                                                            *******************************999988.666778899********* PP
+
+                               CaMKII_training_KD.mafft 172 vlrkdpygkpvdlwacgvilyillvgyppfwdedqhklyqqikagaydfpspewdt 227
+                                                            ++    ++   d+w+ g+++y+ll g  pf  e   ++ q++ +    f    w  
+  SteCoe_33794|PF00069_ali_37-291|hmm_2-262|score_205.2 169 IILG-VFNSKSDMWSIGIMIYVLLSGSLPFVGETYNEILQDMLTSEIFFKGKRWKN 223
+                                                            9975.677778********************************************* PP
+
+                               CaMKII_training_KD.mafft 228 vtpeakdlinkmltinpakritadealkhpwv 259
+                                                            ++ eak+li+++l  n + r+ta+ al+ pw+
+  SteCoe_33794|PF00069_ali_37-291|hmm_2-262|score_205.2 224 ISEEAKNLIKSLLKRNCNERLTAELALNDPWI 255
+                                                            *******************************8 PP
+
+>> SteCoe_36256|PF00069_ali_47-301|hmm_3-262|score_194.2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  128.8   0.5   1.8e-40   1.8e-40       9     259 .]       7     255 .]       2     255 .] 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 128.8 bits;  conditional E-value: 1.8e-40
+                               CaMKII_training_KD.mafft   9 kgafsvvrrcvkvttgqeyaakiintkklsardhqklerearicrllkhpnivrlh 64 
+                                                             g +  v  +  ++t  + a k+i   +  +   + +  e  i   l h ni+++ 
+  SteCoe_36256|PF00069_ali_47-301|hmm_3-262|score_194.2   7 EGRYGAVYEATCKLTKVKRAIKLIPISNSQSSSTKSICHEVNILMELDHINIIKIV 62 
+                                                            566777777777888889999999999999999999******************** PP
+
+                               CaMKII_training_KD.mafft  65 dsiseegfhylvfdlvtggelfedivareyyseadashciqqilesvlhihqkgvv 120
+                                                            d+  e+ f  +v +l tgg+++e iv    +se  a+    qi  ++ +ih +g+v
+  SteCoe_36256|PF00069_ali_47-301|hmm_3-262|score_194.2  63 DAYLENKFLNIVTELCTGGNILERIVEETVFSENKAAELTMQINSALIYIHDQGIV 118
+                                                            ******************************************************** PP
+
+                               CaMKII_training_KD.mafft 121 hrdlkpenlllaskakgaavkladfglaievqgdqqawfgfagtpgylspevlrkd 176
+                                                            hr++  e +l+  ++  + +kl  fg +   +   ++    +    y +pev+  +
+  SteCoe_36256|PF00069_ali_47-301|hmm_3-262|score_194.2 119 HRNISSETILFDNHSPNSILKLVSFGKSKHYDKAIKTLVKTTH-TIYTAPEVISGE 173
+                                                            **************************99988866666555444.469*******99 PP
+
+                               CaMKII_training_KD.mafft 177 pygkpvdlwacgvilyillvgyppfwdedqhklyqqikagaydfpspewdtvtpea 232
+                                                              +k  d+w+ gv+ly++l g  pf +  + ++  ++ +    f s  w   +pea
+  SteCoe_36256|PF00069_ali_47-301|hmm_3-262|score_194.2 174 INTK-SDIWSLGVLLYVMLSGLTPFEERKEDEIVVEVATQEVSFESKIWKKTSPEA 228
+                                                            9887.6************************************************** PP
+
+                               CaMKII_training_KD.mafft 233 kdlinkmltinpakritadealkhpwv 259
+                                                             dli+kml  n ++ri+a++   hpw+
+  SteCoe_36256|PF00069_ali_47-301|hmm_3-262|score_194.2 229 VDLIKKMLEKNHENRISAKKIKDHPWI 255
+                                                            **************************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (259 nodes)
+Target sequences:                         14  (3592 residues searched)
+Passed MSV filter:                        14  (1); expected 14.0 (1)
+Passed bias filter:                       14  (1); expected 14.0 (1)
+Passed Vit filter:                        14  (1); expected 14.0 (1)
+Passed Fwd filter:                        14  (1); expected 14.0 (1)
+Initial search space (Z):                 14  [actual number of targets]
+Domain search space  (domZ):              14  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 93.23
+//
+[ok]

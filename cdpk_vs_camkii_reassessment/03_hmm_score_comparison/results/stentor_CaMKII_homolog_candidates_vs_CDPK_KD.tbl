@@ -1,0 +1,27 @@
+#                                                                                                  --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name                                         accession  query name             accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#                                 ------------------- ----------   -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SteCoe_19366|PF00069_ali_23-280|hmm_1-262|score_262.9 -          CDPK_training_KD.mafft -           2.9e-113  367.2   0.0  3.2e-113  367.0   0.0   1.0   1   0   0   1   1   1   1 -
+SteCoe_26883|PF00069_ali_51-309|hmm_1-262|score_268.4 -          CDPK_training_KD.mafft -           1.5e-108  351.7   0.4  1.7e-108  351.6   0.4   1.0   1   0   0   1   1   1   1 -
+SteCoe_10638|PF00069_ali_44-299|hmm_1-262|score_232.6 -          CDPK_training_KD.mafft -              1e-94  306.3   0.2   1.2e-94  306.2   0.2   1.0   1   0   0   1   1   1   1 -
+SteCoe_18109|PF00069_ali_61-310|hmm_7-262|score_248.9 -          CDPK_training_KD.mafft -            1.3e-92  299.5   0.1   1.4e-92  299.3   0.1   1.0   1   0   0   1   1   1   1 -
+SteCoe_34268|PF00069_ali_30-288|hmm_1-262|score_255.3 -          CDPK_training_KD.mafft -            1.1e-91  296.4   0.7   1.3e-91  296.2   0.7   1.0   1   0   0   1   1   1   1 -
+SteCoe_14067|PF00069_ali_46-304|hmm_1-262|score_238.7 -          CDPK_training_KD.mafft -            2.9e-90  291.7   0.0   3.3e-90  291.6   0.0   1.0   1   0   0   1   1   1   1 -
+SteCoe_30681|PF00069_ali_39-295|hmm_1-262|score_225.8 -          CDPK_training_KD.mafft -            2.1e-87  282.4   0.5   2.3e-87  282.3   0.5   1.0   1   0   0   1   1   1   1 -
+SteCoe_9191|PF00069_ali_52-308|hmm_4-262|score_241.5  -          CDPK_training_KD.mafft -            1.5e-84  273.0   0.0   1.7e-84  272.9   0.0   1.0   1   0   0   1   1   1   1 -
+SteCoe_28008|PF00069_ali_54-304|hmm_7-262|score_236.1 -          CDPK_training_KD.mafft -            1.6e-83  269.7   2.1   1.8e-83  269.5   2.1   1.0   1   0   0   1   1   1   1 -
+SteCoe_15444|PF00069_ali_52-308|hmm_4-262|score_242.1 -          CDPK_training_KD.mafft -            3.5e-82  265.3   0.0   3.9e-82  265.1   0.0   1.0   1   0   0   1   1   1   1 -
+SteCoe_17222|PF00069_ali_34-289|hmm_3-261|score_226.0 -          CDPK_training_KD.mafft -            4.7e-77  248.5   0.0   5.3e-77  248.3   0.0   1.0   1   0   0   1   1   1   1 -
+SteCoe_12063|PF00069_ali_41-303|hmm_1-262|score_221.1 -          CDPK_training_KD.mafft -            9.7e-77  247.4   0.0   1.1e-76  247.3   0.0   1.0   1   0   0   1   1   1   1 -
+SteCoe_33794|PF00069_ali_37-291|hmm_2-262|score_205.2 -          CDPK_training_KD.mafft -            6.2e-76  244.8   3.4   6.8e-76  244.7   3.4   1.0   1   0   0   1   1   1   1 -
+SteCoe_36256|PF00069_ali_47-301|hmm_3-262|score_194.2 -          CDPK_training_KD.mafft -            9.1e-72  231.1   4.8     1e-71  231.0   4.8   1.0   1   0   0   1   1   1   1 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      results/CDPK_KD.hmm
+# Target file:     results/stentor_CaMKII_homolog_candidates_test_KD.fasta
+# Option settings: hmmsearch --tblout results/stentor_CaMKII_homolog_candidates_vs_CDPK_KD.tbl -E 1000 --domE 1000 --max results/CDPK_KD.hmm results/stentor_CaMKII_homolog_candidates_test_KD.fasta 
+# Current dir:     /Users/austentheroux/Downloads/cdpk_vs_camkii_reassessment/03_hmm_score_comparison
+# Date:            Thu Jul  9 18:37:35 2026
+# [ok]

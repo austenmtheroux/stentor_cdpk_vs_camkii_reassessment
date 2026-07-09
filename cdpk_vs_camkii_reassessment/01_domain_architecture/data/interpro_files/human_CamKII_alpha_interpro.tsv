@@ -1,0 +1,21 @@
+Accession	Name	Short Name	Source Database	Type	Integrated Into	Integrated Signatures	GO Terms	Protein Accession	Protein Length	Matches
+cd14086	Catalytic domain of the Serine/Threonine kinase, Calcium/calmodulin-dependent protein kinase Type II	STKc_CaMKII	cdd	domain				q9uqm7	478	11..302
+G3DSA:1.10.510.10	Transferase(Phosphotransferase) domain 1		cathgene3d	homologous_superfamily				q9uqm7	478	93..281
+G3DSA:3.10.450.50			cathgene3d	homologous_superfamily				q9uqm7	478	324..475
+G3DSA:3.30.200.20	Phosphorylase Kinase; domain 1		cathgene3d	homologous_superfamily				q9uqm7	478	1..92
+G3DSA:6.10.140.620			cathgene3d	homologous_superfamily				q9uqm7	478	282..315
+IPR000719	Protein kinase domain	Prot_kinase_dom	interpro	domain		PS50011,PF00069,SM00220	GO:0005524,GO:0006468	q9uqm7	478	13..271
+IPR008271	Serine/threonine-protein kinase, active site	Ser/Thr_kinase_AS	interpro	active_site		PS00108	GO:0004672,GO:0006468	q9uqm7	478	131..143
+IPR011009	Protein kinase-like domain superfamily	Kinase-like_dom_sf	interpro	homologous_superfamily		SSF56112		q9uqm7	478	9..272
+IPR013543	Calcium/calmodulin-dependent protein kinase II, association-domain	Ca/CaM-dep_prot_kinase-assoc	interpro	domain		PF08332	GO:0004683,GO:0005516,GO:0006468	q9uqm7	478	346..473
+IPR017441	Protein kinase, ATP binding site	Protein_kinase_ATP_BS	interpro	binding_site		PS00107	GO:0005524	q9uqm7	478	19..42
+IPR032710	NTF2-like domain superfamily	NTF2-like_dom_sf	interpro	homologous_superfamily		SSF54427		q9uqm7	478	340..470
+PF00069	Protein kinase domain	Pkinase	pfam	domain	IPR000719			q9uqm7	478	13..271
+PF08332	Calcium/calmodulin dependent protein kinase II association domain	CaMKII_AD	pfam	domain	IPR013543			q9uqm7	478	346..473
+PS00107	Protein kinases ATP-binding region signature	PROTEIN_KINASE_ATP	prosite	conserved_site	IPR017441			q9uqm7	478	19..42
+PS00108	Serine/Threonine protein kinases active-site signature	PROTEIN_KINASE_ST	prosite	conserved_site	IPR008271			q9uqm7	478	131..143
+PS50011	Protein kinase domain profile	PROTEIN_KINASE_DOM	profile	domain	IPR000719			q9uqm7	478	13..271
+PTHR24347	Calcium/calmodulin-dependent protein kinase	CAMK	panther	family				q9uqm7	478	9..302
+SM00220	Serine/Threonine protein kinases, catalytic domain	S_TKc	smart	domain	IPR000719			q9uqm7	478	13..271
+SSF54427	NTF2-like		ssf	homologous_superfamily	IPR032710			q9uqm7	478	340..470
+SSF56112	Protein kinase-like (PK-like)		ssf	homologous_superfamily	IPR011009			q9uqm7	478	9..272

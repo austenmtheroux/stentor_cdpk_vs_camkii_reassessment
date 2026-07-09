@@ -60,18 +60,18 @@ cdpk_vs_camkii_reassessment/
 
 ## mapping to the manuscript (placeholder numbers)
 
-| 1. Domain architecture, **Figure S7**
-| 1. Domain architecture, curated summary table, **Table S19**
-| 2. PF08332 search, negative result, Methods
-| 3. HMM score comparison, score table, **Table S20** 
-| all three, Methods paragraphs, `methods_reassessment.md`
-| all three, code + inputs, paper's *Data and code availability* section
+1. Domain architecture, **Figure S7**
+1. Domain architecture, curated summary table, **Table S19**
+2. Association-domain (PF08332) search, negative result, Methods
+3. HMM score comparison, score table, **Table S20** 
+all three, Methods paragraphs, `methods_reassessment.md`
+all three, code + inputs, paper's *Data and code availability* section
 
 ## Analysis 1: Domain-architecture reassessment
 
 In `01_domain_architecture`, run: `python scripts/make_reannotation_summary.py`
 
-# AUTO vs. CURATED reannotation table
+AUTO vs. CURATED reannotation table:
 
 `01_domain_architecture/results/reannotation_summary_AUTO.tsv` is produced by
 `make_reannotation_summary.py` and features 8 columns: Protein_ID, Length_aa,

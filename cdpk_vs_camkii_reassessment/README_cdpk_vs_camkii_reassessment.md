@@ -66,6 +66,7 @@ cdpk_vs_camkii_reassessment/
 3. HMM score comparison, score table, **Table S20** 
 
 all three, Methods paragraphs, `methods_reassessment.md`
+
 all three, code + inputs, paper's *Data and code availability* section
 
 ## Analysis 1: Domain-architecture reassessment
